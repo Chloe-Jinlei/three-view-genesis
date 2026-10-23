@@ -1,0 +1,4613 @@
+[
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889633429415586,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0002517619521827,
+    "local_stretch_max": 1.000572718648232,
+    "cloth_min_z_m": 0.7573394179344177,
+    "cloth_mean_z_m": 0.7574875016212463,
+    "rim_centers_m": [
+      [
+        -0.20391751521013,
+        -0.20499054579572243,
+        0.7577122165398165
+      ],
+      [
+        0.20489920874436696,
+        -0.20417108337084452,
+        0.7577182504865858
+      ]
+    ],
+    "step": 0,
+    "t_seconds": 0.0,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889640670542736,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0015891558318168,
+    "local_stretch_max": 1.0040685906812952,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7563749897480011,
+    "rim_centers_m": [
+      [
+        -0.20391318574547768,
+        -0.20497093857689339,
+        0.7570964897220785
+      ],
+      [
+        0.20490076707469093,
+        -0.20415117111470965,
+        0.7571111612849766
+      ]
+    ],
+    "step": 8,
+    "t_seconds": 0.08,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642206895183,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.001579272286004,
+    "local_stretch_max": 1.0038005181296044,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7563734735012054,
+    "rim_centers_m": [
+      [
+        -0.20391567593271082,
+        -0.20496923137794842,
+        0.7570911009203304
+      ],
+      [
+        0.20490134358406067,
+        -0.20414907899167803,
+        0.7571062856250339
+      ]
+    ],
+    "step": 16,
+    "t_seconds": 0.16,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642016914387,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.001557082518985,
+    "local_stretch_max": 1.0040289781965075,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.756373297405243,
+    "rim_centers_m": [
+      [
+        -0.20391706038605084,
+        -0.20497742295265198,
+        0.7570908042517576
+      ],
+      [
+        0.20489913688765632,
+        -0.20415836572647095,
+        0.7571061650911967
+      ]
+    ],
+    "step": 24,
+    "t_seconds": 0.24,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889641989921349,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.001551380883377,
+    "local_stretch_max": 1.0039549323048034,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7563733255386352,
+    "rim_centers_m": [
+      [
+        -0.20391312478618187,
+        -0.20497558841651137,
+        0.7570907758040861
+      ],
+      [
+        0.20489847428268856,
+        -0.2041576001379225,
+        0.757106093565623
+      ]
+    ],
+    "step": 32,
+    "t_seconds": 0.32,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642165997863,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.001562754772714,
+    "local_stretch_max": 1.0039483893958128,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7563733140945434,
+    "rim_centers_m": [
+      [
+        -0.20391471954909238,
+        -0.2049742117524147,
+        0.7570907609029249
+      ],
+      [
+        0.2048989365498225,
+        -0.20415386524465348,
+        0.7571060167418586
+      ]
+    ],
+    "step": 40,
+    "t_seconds": 0.4,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642016983469,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0015599206705579,
+    "local_stretch_max": 1.0039756348253395,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7563733152389527,
+    "rim_centers_m": [
+      [
+        -0.20391384850848804,
+        -0.20497553287581963,
+        0.7570907798680392
+      ],
+      [
+        0.2048991127146615,
+        -0.204157312379943,
+        0.7571060948901707
+      ]
+    ],
+    "step": 48,
+    "t_seconds": 0.48,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642098278223,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0015617890554398,
+    "local_stretch_max": 1.003963992824113,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.756373312330246,
+    "rim_centers_m": [
+      [
+        -0.2039149281653491,
+        -0.20497541840780864,
+        0.7570907758040861
+      ],
+      [
+        0.20489805241425832,
+        -0.2041548450787862,
+        0.7571060472064548
+      ]
+    ],
+    "step": 56,
+    "t_seconds": 0.56,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642125375699,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0015597420115459,
+    "local_stretch_max": 1.0039507396111644,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7563733095645905,
+    "rim_centers_m": [
+      [
+        -0.2039141126654365,
+        -0.20497407188469713,
+        0.7570907527750189
+      ],
+      [
+        0.2048998041285409,
+        -0.2041557682885064,
+        0.7571060617764791
+      ]
+    ],
+    "step": 64,
+    "t_seconds": 0.64,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642030541268,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.001559866697532,
+    "local_stretch_max": 1.0039644104929994,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7563733121871948,
+    "rim_centers_m": [
+      [
+        -0.20391390845179558,
+        -0.2049753632057797,
+        0.7570907758040861
+      ],
+      [
+        0.20489865210321215,
+        -0.20415669911437564,
+        0.7571060789955987
+      ]
+    ],
+    "step": 72,
+    "t_seconds": 0.72,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642044026624,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0015658462609296,
+    "local_stretch_max": 1.0039742451411773,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7563733147144318,
+    "rim_centers_m": [
+      [
+        -0.20391457629474727,
+        -0.20497596365484325,
+        0.7570907879959453
+      ],
+      [
+        0.20489805936813354,
+        -0.20415575702985128,
+        0.7571060683992173
+      ]
+    ],
+    "step": 80,
+    "t_seconds": 0.8,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642125379143,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0015639313156142,
+    "local_stretch_max": 1.0039599745960317,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7563733115196228,
+    "rim_centers_m": [
+      [
+        -0.2039147781377489,
+        -0.20497477833520283,
+        0.757090764966878
+      ],
+      [
+        0.20489930775430468,
+        -0.20415529608726501,
+        0.7571060392591689
+      ]
+    ],
+    "step": 88,
+    "t_seconds": 0.88,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642111789101,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0015597939530543,
+    "local_stretch_max": 1.0039520639269863,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7563733136653901,
+    "rim_centers_m": [
+      [
+        -0.20391403138637543,
+        -0.20497446642680603,
+        0.7570907703854821
+      ],
+      [
+        0.20489946239524418,
+        -0.2041555553674698,
+        0.7571060485310025
+      ]
+    ],
+    "step": 96,
+    "t_seconds": 0.96,
+    "stage": "reach_and_grasp",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889642716520634,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0039768954205903,
+    "local_stretch_max": 1.0094147240111475,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.7567748568534851,
+    "rim_centers_m": [
+      [
+        -0.20390955087813464,
+        -0.20494742691516876,
+        0.7580707547339526
+      ],
+      [
+        0.2048988726403978,
+        -0.204129355152448,
+        0.758099106947581
+      ]
+    ],
+    "step": 104,
+    "t_seconds": 1.04,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889637692355767,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0112271450952661,
+    "local_stretch_max": 1.0167676105413708,
+    "cloth_min_z_m": 0.7560000419616699,
+    "cloth_mean_z_m": 0.758207829343265,
+    "rim_centers_m": [
+      [
+        -0.2039085097750052,
+        -0.20483659014792843,
+        0.7609891518100788
+      ],
+      [
+        0.20490361868218507,
+        -0.20402882543792739,
+        0.7610594986762398
+      ]
+    ],
+    "step": 112,
+    "t_seconds": 1.12,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.788956475189798,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0275552947787867,
+    "local_stretch_max": 1.0748119330526613,
+    "cloth_min_z_m": 0.7560000419678361,
+    "cloth_mean_z_m": 0.7616905884753067,
+    "rim_centers_m": [
+      [
+        -0.20395760565816848,
+        -0.2046554332258221,
+        0.7660192770390052
+      ],
+      [
+        0.20493882010432138,
+        -0.20384192912145405,
+        0.7661314422108023
+      ]
+    ],
+    "step": 120,
+    "t_seconds": 1.2,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889478437681522,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.044401390545054,
+    "local_stretch_max": 1.1328580089119693,
+    "cloth_min_z_m": 0.7560020438621267,
+    "cloth_mean_z_m": 0.7686031932783358,
+    "rim_centers_m": [
+      [
+        -0.20392452267117428,
+        -0.20452656370181746,
+        0.7732913358124343
+      ],
+      [
+        0.20493956626632723,
+        -0.2037034601349083,
+        0.7734589467082582
+      ]
+    ],
+    "step": 128,
+    "t_seconds": 1.28,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889476882287024,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0434254127309515,
+    "local_stretch_max": 1.164737131202397,
+    "cloth_min_z_m": 0.7608385578723027,
+    "cloth_mean_z_m": 0.7794903767174689,
+    "rim_centers_m": [
+      [
+        -0.20388400377697583,
+        -0.20455561679018144,
+        0.7836963701937857
+      ],
+      [
+        0.20493125357790246,
+        -0.20374026489326907,
+        0.7838667392407457
+      ]
+    ],
+    "step": 136,
+    "t_seconds": 1.36,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889483350462719,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.04217937398242,
+    "local_stretch_max": 1.1463313556855124,
+    "cloth_min_z_m": 0.7745858579341748,
+    "cloth_mean_z_m": 0.7916539002215128,
+    "rim_centers_m": [
+      [
+        -0.20391593549394668,
+        -0.20459905383862792,
+        0.7961338699819482
+      ],
+      [
+        0.20493720031960028,
+        -0.20377760863629996,
+        0.7962666912256979
+      ]
+    ],
+    "step": 144,
+    "t_seconds": 1.44,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889478200229629,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0434040485200788,
+    "local_stretch_max": 1.1570123585999181,
+    "cloth_min_z_m": 0.7861442360814987,
+    "cloth_mean_z_m": 0.8040704852282524,
+    "rim_centers_m": [
+      [
+        -0.20389677486094113,
+        -0.20457100293108246,
+        0.8084254833222565
+      ],
+      [
+        0.20493467664535087,
+        -0.20375116497794374,
+        0.8085869111067248
+      ]
+    ],
+    "step": 152,
+    "t_seconds": 1.52,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889482857017714,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0417689404135517,
+    "local_stretch_max": 1.1483976590836842,
+    "cloth_min_z_m": 0.7996569117713636,
+    "cloth_mean_z_m": 0.8169286847302752,
+    "rim_centers_m": [
+      [
+        -0.2039028397230922,
+        -0.2045898285871357,
+        0.8213041938149469
+      ],
+      [
+        0.2049331649493743,
+        -0.20377013796760177,
+        0.8214457835762289
+      ]
+    ],
+    "step": 160,
+    "t_seconds": 1.6,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.788948103196185,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0427303767307665,
+    "local_stretch_max": 1.1530004451824234,
+    "cloth_min_z_m": 0.8115028714661309,
+    "cloth_mean_z_m": 0.8290921251349848,
+    "rim_centers_m": [
+      [
+        -0.20390189879798884,
+        -0.20457653764671824,
+        0.8334540119732129
+      ],
+      [
+        0.20493516050526614,
+        -0.20375648677404484,
+        0.8336070918188871
+      ]
+    ],
+    "step": 168,
+    "t_seconds": 1.68,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889484245431295,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0418348304963239,
+    "local_stretch_max": 1.1493218108845136,
+    "cloth_min_z_m": 0.8232296894679781,
+    "cloth_mean_z_m": 0.8405658260577302,
+    "rim_centers_m": [
+      [
+        -0.20390056312711077,
+        -0.20458686164166898,
+        0.8449425866580149
+      ],
+      [
+        0.20493348993877744,
+        -0.20376687322340778,
+        0.8450873061469186
+      ]
+    ],
+    "step": 176,
+    "t_seconds": 1.76,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889484263691814,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0423997056787244,
+    "local_stretch_max": 1.1511230718332068,
+    "cloth_min_z_m": 0.8331236441698889,
+    "cloth_mean_z_m": 0.8505299106428785,
+    "rim_centers_m": [
+      [
+        -0.20390073676455464,
+        -0.20457926922714045,
+        0.854904254268071
+      ],
+      [
+        0.2049334480950934,
+        -0.20375965177921893,
+        0.8550561755228946
+      ]
+    ],
+    "step": 184,
+    "t_seconds": 1.84,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889486673890609,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0421838056816115,
+    "local_stretch_max": 1.1502491011187876,
+    "cloth_min_z_m": 0.8413789788833813,
+    "cloth_mean_z_m": 0.8586886645991031,
+    "rim_centers_m": [
+      [
+        -0.20389926245200413,
+        -0.20458103190834825,
+        0.8630830540777917
+      ],
+      [
+        0.2049329411857539,
+        -0.20376149740464838,
+        0.8632320781224389
+      ]
+    ],
+    "step": 192,
+    "t_seconds": 1.92,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889488392524743,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.042327677723238,
+    "local_stretch_max": 1.1507847480623639,
+    "cloth_min_z_m": 0.8471731046735625,
+    "cloth_mean_z_m": 0.8644534623857689,
+    "rim_centers_m": [
+      [
+        -0.2038983367670239,
+        -0.20457664650619975,
+        0.8688601884831737
+      ],
+      [
+        0.2049319636495759,
+        -0.20375765176400304,
+        0.8690138023800922
+      ]
+    ],
+    "step": 200,
+    "t_seconds": 2.0,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889490440510517,
+    "seam_max_m": 0.791705229823831,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0424259853306836,
+    "local_stretch_max": 1.151214122893217,
+    "cloth_min_z_m": 0.8501318717601042,
+    "cloth_mean_z_m": 0.8673774458460183,
+    "rim_centers_m": [
+      [
+        -0.20389748271539399,
+        -0.2045738421668215,
+        0.8718041239206716
+      ],
+      [
+        0.2049319019005662,
+        -0.20375496266949333,
+        0.8719585622954529
+      ]
+    ],
+    "step": 208,
+    "t_seconds": 2.08,
+    "stage": "lift_clear_of_table",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889476082985039,
+    "seam_max_m": 0.7917052297995106,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0454504474562136,
+    "local_stretch_max": 1.1598725406928188,
+    "cloth_min_z_m": 0.8500028639888371,
+    "cloth_mean_z_m": 0.8676485154121918,
+    "rim_centers_m": [
+      [
+        -0.20390351966007794,
+        -0.20416149431271927,
+        0.8725076156096889
+      ],
+      [
+        0.20493207750744316,
+        -0.20334086686064154,
+        0.872675082638909
+      ]
+    ],
+    "step": 216,
+    "t_seconds": 2.16,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889476242550302,
+    "seam_max_m": 0.7917052298080924,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.043804849673399,
+    "local_stretch_max": 1.1583128582519708,
+    "cloth_min_z_m": 0.8503833999850934,
+    "cloth_mean_z_m": 0.8697627625097459,
+    "rim_centers_m": [
+      [
+        -0.2039003077628264,
+        -0.20175195064179563,
+        0.876070784086405
+      ],
+      [
+        0.20492943844958889,
+        -0.20093854079108672,
+        0.8762626725666858
+      ]
+    ],
+    "step": 224,
+    "t_seconds": 2.24,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889478138505459,
+    "seam_max_m": 0.7917052298677516,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.04385495776253,
+    "local_stretch_max": 1.155051876714467,
+    "cloth_min_z_m": 0.850940902378134,
+    "cloth_mean_z_m": 0.8732842618347965,
+    "rim_centers_m": [
+      [
+        -0.2039132941852807,
+        -0.19760905354316619,
+        0.882522653575364
+      ],
+      [
+        0.2049332716715719,
+        -0.19680645155133894,
+        0.8827572108312012
+      ]
+    ],
+    "step": 232,
+    "t_seconds": 2.32,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889477477817791,
+    "seam_max_m": 0.7917052298152049,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.042930418611451,
+    "local_stretch_max": 1.1562523089430954,
+    "cloth_min_z_m": 0.850472802953773,
+    "cloth_mean_z_m": 0.8783015310482966,
+    "rim_centers_m": [
+      [
+        -0.20391397511493767,
+        -0.19218839414269287,
+        0.8912758061509158
+      ],
+      [
+        0.20493001655180115,
+        -0.1914059952822793,
+        0.8915800708252584
+      ]
+    ],
+    "step": 240,
+    "t_seconds": 2.4,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889475948799262,
+    "seam_max_m": 0.7917052298179086,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0420347781927506,
+    "local_stretch_max": 1.1535753265183069,
+    "cloth_min_z_m": 0.8483044592077408,
+    "cloth_mean_z_m": 0.8845593522560852,
+    "rim_centers_m": [
+      [
+        -0.20392977691415828,
+        -0.18605589930719885,
+        0.9021251430247982
+      ],
+      [
+        0.20493418204813907,
+        -0.1852999294181413,
+        0.9024959788808248
+      ]
+    ],
+    "step": 248,
+    "t_seconds": 2.48,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889473507566901,
+    "seam_max_m": 0.7917052298657042,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0406995393011076,
+    "local_stretch_max": 1.1532023192613479,
+    "cloth_min_z_m": 0.8455288333713179,
+    "cloth_mean_z_m": 0.8918550099439141,
+    "rim_centers_m": [
+      [
+        -0.2039338929025453,
+        -0.17962578770548762,
+        0.9143678752518721
+      ],
+      [
+        0.20493238361773009,
+        -0.17891662298270664,
+        0.91482784831371
+      ]
+    ],
+    "step": 256,
+    "t_seconds": 2.56,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889483171542025,
+    "seam_max_m": 0.7917052298068364,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0382533023377891,
+    "local_stretch_max": 1.1480198047316583,
+    "cloth_min_z_m": 0.8436236270532729,
+    "cloth_mean_z_m": 0.900061937587894,
+    "rim_centers_m": [
+      [
+        -0.20394444470521095,
+        -0.17341771269045755,
+        0.9276585852925859
+      ],
+      [
+        0.2049332339538059,
+        -0.1727614120446005,
+        0.9281958476503954
+      ]
+    ],
+    "step": 264,
+    "t_seconds": 2.64,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889486865090956,
+    "seam_max_m": 0.791705229864994,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0357883262806133,
+    "local_stretch_max": 1.1442809825134503,
+    "cloth_min_z_m": 0.8426580960204766,
+    "cloth_mean_z_m": 0.9088619388667232,
+    "rim_centers_m": [
+      [
+        -0.20395164061137913,
+        -0.16767063864056614,
+        0.941281877183452
+      ],
+      [
+        0.20493250101771368,
+        -0.16708476247730028,
+        0.9419017062429536
+      ]
+    ],
+    "step": 272,
+    "t_seconds": 2.72,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889502042570034,
+    "seam_max_m": 0.7917052298498596,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0325270461333333,
+    "local_stretch_max": 1.136417191921937,
+    "cloth_min_z_m": 0.8431210176977533,
+    "cloth_mean_z_m": 0.9180465393906517,
+    "rim_centers_m": [
+      [
+        -0.20396064564941854,
+        -0.16269508837542276,
+        0.9547888999198584
+      ],
+      [
+        0.2049311844226917,
+        -0.16218699655218397,
+        0.9554786673443374
+      ]
+    ],
+    "step": 280,
+    "t_seconds": 2.8000000000000003,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889538769972436,
+    "seam_max_m": 0.7917052299292346,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0294938093881394,
+    "local_stretch_max": 1.128230712169132,
+    "cloth_min_z_m": 0.8450341420535679,
+    "cloth_mean_z_m": 0.9272746615645568,
+    "rim_centers_m": [
+      [
+        -0.20396701209236756,
+        -0.15854016828399933,
+        0.9676005740273255
+      ],
+      [
+        0.20492788099697223,
+        -0.1581192040559333,
+        0.968348407235231
+      ]
+    ],
+    "step": 288,
+    "t_seconds": 2.88,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889584545636016,
+    "seam_max_m": 0.7917052297055974,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0260384782983267,
+    "local_stretch_max": 1.1187045843312824,
+    "cloth_min_z_m": 0.8483640635603111,
+    "cloth_mean_z_m": 0.9362325556186751,
+    "rim_centers_m": [
+      [
+        -0.20397153508767893,
+        -0.1552292111364088,
+        0.9792931755477806
+      ],
+      [
+        0.20492154775526572,
+        -0.15489705440470736,
+        0.9800862838322151
+      ]
+    ],
+    "step": 296,
+    "t_seconds": 2.96,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889631978820945,
+    "seam_max_m": 0.7917052298129208,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0227472642780497,
+    "local_stretch_max": 1.107621070899893,
+    "cloth_min_z_m": 0.8527874669017532,
+    "cloth_mean_z_m": 0.9445938123353275,
+    "rim_centers_m": [
+      [
+        -0.20397597497615624,
+        -0.1527473391095432,
+        0.9895426151038077
+      ],
+      [
+        0.20491146869696222,
+        -0.1525004689999821,
+        0.9903668494567474
+      ]
+    ],
+    "step": 304,
+    "t_seconds": 3.04,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889644168172466,
+    "seam_max_m": 0.7917052297153903,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.019916058406977,
+    "local_stretch_max": 1.0978726146850966,
+    "cloth_min_z_m": 0.8578570583259915,
+    "cloth_mean_z_m": 0.9520339604606591,
+    "rim_centers_m": [
+      [
+        -0.20397558286748652,
+        -0.15096665344346716,
+        0.9981053825317083
+      ],
+      [
+        0.20489720297068545,
+        -0.15079796572753182,
+        0.9989474567630816
+      ]
+    ],
+    "step": 312,
+    "t_seconds": 3.12,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889647348789282,
+    "seam_max_m": 0.7917052296722228,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.017688736189371,
+    "local_stretch_max": 1.0899746483030865,
+    "cloth_min_z_m": 0.8629545351974939,
+    "cloth_mean_z_m": 0.9582650577182384,
+    "rim_centers_m": [
+      [
+        -0.20397178648447065,
+        -0.1498154071057807,
+        1.004868007783674
+      ],
+      [
+        0.20488349587295904,
+        -0.14972913842235108,
+        1.0057196561438573
+      ]
+    ],
+    "step": 320,
+    "t_seconds": 3.2,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889655779601842,
+    "seam_max_m": 0.7917052298733888,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0166513204665883,
+    "local_stretch_max": 1.084202078959743,
+    "cloth_min_z_m": 0.8673904929166433,
+    "cloth_mean_z_m": 0.9630390473297091,
+    "rim_centers_m": [
+      [
+        -0.2039614399734619,
+        -0.14927724361013348,
+        1.0097962495425015
+      ],
+      [
+        0.20487332882015055,
+        -0.1492594854228465,
+        1.0106477319466558
+      ]
+    ],
+    "step": 328,
+    "t_seconds": 3.2800000000000002,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.788966468374883,
+    "seam_max_m": 0.7917052301530887,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0160903022211505,
+    "local_stretch_max": 1.0809942175344076,
+    "cloth_min_z_m": 0.8704920675306026,
+    "cloth_mean_z_m": 0.9661515277807055,
+    "rim_centers_m": [
+      [
+        -0.20395110364536825,
+        -0.1493498728833068,
+        1.0128918548413528
+      ],
+      [
+        0.20486278804974034,
+        -0.14938250606173456,
+        1.0137384539143308
+      ]
+    ],
+    "step": 336,
+    "t_seconds": 3.36,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7889665830027613,
+    "seam_max_m": 0.7917052302099026,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0162609087873977,
+    "local_stretch_max": 1.0825612021133966,
+    "cloth_min_z_m": 0.8717360897622569,
+    "cloth_mean_z_m": 0.9674516483919396,
+    "rim_centers_m": [
+      [
+        -0.2039391493563178,
+        -0.1499876398977614,
+        1.014131120000608
+      ],
+      [
+        0.2048497001225278,
+        -0.15001654931159347,
+        1.014975983187839
+      ]
+    ],
+    "step": 344,
+    "t_seconds": 3.44,
+    "stage": "stand_in_front",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7876589522529224,
+    "seam_max_m": 0.7903944228024528,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0159359594004636,
+    "local_stretch_max": 1.0828169141000328,
+    "cloth_min_z_m": 0.8713431997957882,
+    "cloth_mean_z_m": 0.9672518383371272,
+    "rim_centers_m": [
+      [
+        -0.20381411931093646,
+        -0.14984188901501858,
+        1.0139223903615144
+      ],
+      [
+        0.2047162745599045,
+        -0.14979123431410538,
+        1.01477453367944
+      ]
+    ],
+    "step": 352,
+    "t_seconds": 3.52,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7825722250311372,
+    "seam_max_m": 0.7852919621993729,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0157658863820402,
+    "local_stretch_max": 1.0881313007988656,
+    "cloth_min_z_m": 0.870302639194992,
+    "cloth_mean_z_m": 0.966382076290608,
+    "rim_centers_m": [
+      [
+        -0.20336116669669851,
+        -0.14710651488728235,
+        1.0130228311634057
+      ],
+      [
+        0.2042204514845818,
+        -0.14704874205631652,
+        1.0138698826099364
+      ]
+    ],
+    "step": 360,
+    "t_seconds": 3.6,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7740374727427792,
+    "seam_max_m": 0.7767256278628789,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.016149986595306,
+    "local_stretch_max": 1.1156294969625593,
+    "cloth_min_z_m": 0.8689499725221059,
+    "cloth_mean_z_m": 0.9649402505549,
+    "rim_centers_m": [
+      [
+        -0.2029262123273484,
+        -0.14206982676451727,
+        1.011437222340207
+      ],
+      [
+        0.20373296265728136,
+        -0.14204323272085162,
+        1.0122922104645697
+      ]
+    ],
+    "step": 368,
+    "t_seconds": 3.68,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.762455574093839,
+    "seam_max_m": 0.7651078354788122,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0166297186515523,
+    "local_stretch_max": 1.1278798561096455,
+    "cloth_min_z_m": 0.8673266471101305,
+    "cloth_mean_z_m": 0.9630382118096437,
+    "rim_centers_m": [
+      [
+        -0.20177383906989102,
+        -0.1344153008171013,
+        1.0094012250492512
+      ],
+      [
+        0.20253746720412233,
+        -0.13444874080305103,
+        1.0102233783974666
+      ]
+    ],
+    "step": 376,
+    "t_seconds": 3.7600000000000002,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7482397366467832,
+    "seam_max_m": 0.7508510735743198,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0181374925370836,
+    "local_stretch_max": 1.1417739343745683,
+    "cloth_min_z_m": 0.8642231449676369,
+    "cloth_mean_z_m": 0.9605210806949493,
+    "rim_centers_m": [
+      [
+        -0.20068230999520445,
+        -0.12479958834288091,
+        1.0067682712301373
+      ],
+      [
+        0.20144320946082955,
+        -0.12457446320662263,
+        1.0075616844337698
+      ]
+    ],
+    "step": 384,
+    "t_seconds": 3.84,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.7318230413645576,
+    "seam_max_m": 0.7343678162559439,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0185268192268773,
+    "local_stretch_max": 1.166010617464765,
+    "cloth_min_z_m": 0.8612403097491754,
+    "cloth_mean_z_m": 0.9577500839822384,
+    "rim_centers_m": [
+      [
+        -0.19984224185261718,
+        -0.11238048790532588,
+        1.0036937645173112
+      ],
+      [
+        0.20045736742172504,
+        -0.11214933680987019,
+        1.004445276854663
+      ]
+    ],
+    "step": 392,
+    "t_seconds": 3.92,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.713594594520136,
+    "seam_max_m": 0.7160705359378592,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.01904688161177,
+    "local_stretch_max": 1.2400539195038351,
+    "cloth_min_z_m": 0.8576295228050185,
+    "cloth_mean_z_m": 0.9547976421757045,
+    "rim_centers_m": [
+      [
+        -0.19939941043293563,
+        -0.09898954963587293,
+        1.000137373494794
+      ],
+      [
+        0.20001669331505642,
+        -0.09861847490282005,
+        1.0008990656732448
+      ]
+    ],
+    "step": 400,
+    "t_seconds": 4.0,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.6939865934453731,
+    "seam_max_m": 0.6963717057952092,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.020144420697978,
+    "local_stretch_max": 1.3195346752212629,
+    "cloth_min_z_m": 0.8546166414442602,
+    "cloth_mean_z_m": 0.9516477662938658,
+    "rim_centers_m": [
+      [
+        -0.1983056666471425,
+        -0.08430207415934314,
+        0.9966037549966383
+      ],
+      [
+        0.19885769745222437,
+        -0.08431231958230821,
+        0.9973353439941905
+      ]
+    ],
+    "step": 408,
+    "t_seconds": 4.08,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.6733991733205316,
+    "seam_max_m": 0.675683844308712,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0215807323727417,
+    "local_stretch_max": 1.4090732876137957,
+    "cloth_min_z_m": 0.8518410235521529,
+    "cloth_mean_z_m": 0.9483757664150536,
+    "rim_centers_m": [
+      [
+        -0.19703694303899671,
+        -0.07042530384729301,
+        0.9928920640494152
+      ],
+      [
+        0.19741206921143004,
+        -0.07046859600943271,
+        0.9937142331610888
+      ]
+    ],
+    "step": 416,
+    "t_seconds": 4.16,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.6522480978730602,
+    "seam_max_m": 0.654419301267387,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0222470353610154,
+    "local_stretch_max": 1.5009522904274724,
+    "cloth_min_z_m": 0.8483696007916528,
+    "cloth_mean_z_m": 0.9450611010921195,
+    "rim_centers_m": [
+      [
+        -0.19562844444926888,
+        -0.056162922469334235,
+        0.9892349636028025
+      ],
+      [
+        0.19627206766265917,
+        -0.05574899583671663,
+        0.9899830415995265
+      ]
+    ],
+    "step": 424,
+    "t_seconds": 4.24,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.6309422067687689,
+    "seam_max_m": 0.6329905730917602,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.023683292841351,
+    "local_stretch_max": 1.5938954635695193,
+    "cloth_min_z_m": 0.844739627116752,
+    "cloth_mean_z_m": 0.9415744056181741,
+    "rim_centers_m": [
+      [
+        -0.19458811758044312,
+        -0.04017791922730311,
+        0.9853023011754054
+      ],
+      [
+        0.1950816992100361,
+        -0.03965699244881354,
+        0.9859199404355444
+      ]
+    ],
+    "step": 432,
+    "t_seconds": 4.32,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.6098927203937135,
+    "seam_max_m": 0.611810025178983,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0250671326844785,
+    "local_stretch_max": 1.6883775170299833,
+    "cloth_min_z_m": 0.8407378327892648,
+    "cloth_mean_z_m": 0.9381451059465818,
+    "rim_centers_m": [
+      [
+        -0.1931386707723832,
+        -0.02354757205209259,
+        0.9813210879278468
+      ],
+      [
+        0.1931507469432138,
+        -0.023123349547806742,
+        0.9818308651067982
+      ]
+    ],
+    "step": 440,
+    "t_seconds": 4.4,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.5895104894567917,
+    "seam_max_m": 0.591289937491236,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.026501645437625,
+    "local_stretch_max": 1.7813252765371073,
+    "cloth_min_z_m": 0.8375097035469944,
+    "cloth_mean_z_m": 0.9349018328737245,
+    "rim_centers_m": [
+      [
+        -0.19109024432837582,
+        -0.008157128209003299,
+        0.977409759820517
+      ],
+      [
+        0.19134080434872175,
+        -0.007491254265743418,
+        0.9780276074931495
+      ]
+    ],
+    "step": 448,
+    "t_seconds": 4.48,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.570195562475176,
+    "seam_max_m": 0.5718425819308905,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0288261797734648,
+    "local_stretch_max": 1.8702901758594679,
+    "cloth_min_z_m": 0.8345628176190718,
+    "cloth_mean_z_m": 0.9318114900303978,
+    "rim_centers_m": [
+      [
+        -0.18915137173275393,
+        0.005788025433604963,
+        0.9738522090293068
+      ],
+      [
+        0.18942594673741253,
+        0.006539502565853386,
+        0.9744666521304541
+      ]
+    ],
+    "step": 456,
+    "t_seconds": 4.5600000000000005,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.552359834542578,
+    "seam_max_m": 0.5538801224308182,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0304412639726848,
+    "local_stretch_max": 1.9543177629296964,
+    "cloth_min_z_m": 0.8318465315440392,
+    "cloth_mean_z_m": 0.9289646038907399,
+    "rim_centers_m": [
+      [
+        -0.18764595725806812,
+        0.01919744462695826,
+        0.9706795635465323
+      ],
+      [
+        0.18834172732556975,
+        0.01943217210102209,
+        0.9713547134523449
+      ]
+    ],
+    "step": 464,
+    "t_seconds": 4.64,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.536408413366683,
+    "seam_max_m": 0.5378146407484777,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0319956917352289,
+    "local_stretch_max": 2.0335744927064807,
+    "cloth_min_z_m": 0.8292893827433694,
+    "cloth_mean_z_m": 0.92644651055418,
+    "rim_centers_m": [
+      [
+        -0.18658644942314737,
+        0.03103332383753391,
+        0.9678572887625684
+      ],
+      [
+        0.18726047975477284,
+        0.031053940795588122,
+        0.968634428006042
+      ]
+    ],
+    "step": 472,
+    "t_seconds": 4.72,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.5227682734901885,
+    "seam_max_m": 0.5240581656403562,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0359812380807605,
+    "local_stretch_max": 2.104145792291276,
+    "cloth_min_z_m": 0.8275917041485911,
+    "cloth_mean_z_m": 0.9243243480754434,
+    "rim_centers_m": [
+      [
+        -0.18546270179151592,
+        0.04075613223927657,
+        0.965497532097729
+      ],
+      [
+        0.18618256244517895,
+        0.04122234092518631,
+        0.9662201415297763
+      ]
+    ],
+    "step": 480,
+    "t_seconds": 4.8,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.5118170772170255,
+    "seam_max_m": 0.51302257443697,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0401416459846458,
+    "local_stretch_max": 2.159170096451048,
+    "cloth_min_z_m": 0.8261113037838376,
+    "cloth_mean_z_m": 0.9227024729030545,
+    "rim_centers_m": [
+      [
+        -0.18416575926539105,
+        0.04901709265389423,
+        0.9636263606756402
+      ],
+      [
+        0.18477187375784832,
+        0.04986010514879317,
+        0.9643106920080928
+      ]
+    ],
+    "step": 488,
+    "t_seconds": 4.88,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.5039408625910747,
+    "seam_max_m": 0.5051198880516601,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0428387520316407,
+    "local_stretch_max": 2.191639308219761,
+    "cloth_min_z_m": 0.825164142937079,
+    "cloth_mean_z_m": 0.9215252624434915,
+    "rim_centers_m": [
+      [
+        -0.18293426237776733,
+        0.05543155450320496,
+        0.9623229900830478
+      ],
+      [
+        0.1833826700447311,
+        0.05632376845779024,
+        0.9629394236140627
+      ]
+    ],
+    "step": 496,
+    "t_seconds": 4.96,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.4996238460318731,
+    "seam_max_m": 0.5007619357736308,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0445710142081854,
+    "local_stretch_max": 2.2087164221372015,
+    "cloth_min_z_m": 0.8245659900218806,
+    "cloth_mean_z_m": 0.9209286889304007,
+    "rim_centers_m": [
+      [
+        -0.18247498252322128,
+        0.059275822453358634,
+        0.9615511093805118
+      ],
+      [
+        0.18246584259861928,
+        0.06010818936590256,
+        0.9622835925511427
+      ]
+    ],
+    "step": 504,
+    "t_seconds": 5.04,
+    "stage": "form_open_sleeve_approach",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.4988245259594526,
+    "seam_max_m": 0.49994047553396775,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0448735177659727,
+    "local_stretch_max": 2.2131822111977026,
+    "cloth_min_z_m": 0.8247771636401116,
+    "cloth_mean_z_m": 0.9209989811574354,
+    "rim_centers_m": [
+      [
+        -0.1824661720911429,
+        0.0596569406949447,
+        0.9615188014822064
+      ],
+      [
+        0.1827224382217516,
+        0.0602622537094196,
+        0.9622157762445605
+      ]
+    ],
+    "step": 512,
+    "t_seconds": 5.12,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.4979826202842833,
+    "seam_max_m": 0.49908955578110126,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0470848549086713,
+    "local_stretch_max": 2.22835780504546,
+    "cloth_min_z_m": 0.826668808868476,
+    "cloth_mean_z_m": 0.9227250317974712,
+    "rim_centers_m": [
+      [
+        -0.18270273411260182,
+        0.05960160040780214,
+        0.9633321725568035
+      ],
+      [
+        0.18366695155141693,
+        0.060234052066591444,
+        0.9640177818417561
+      ]
+    ],
+    "step": 520,
+    "t_seconds": 5.2,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.49637127808663045,
+    "seam_max_m": 0.49745099921440666,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0510404714351604,
+    "local_stretch_max": 2.25660385938767,
+    "cloth_min_z_m": 0.8296931357505437,
+    "cloth_mean_z_m": 0.9262290524382403,
+    "rim_centers_m": [
+      [
+        -0.18415211734797124,
+        0.06045785576386123,
+        0.9667911974444425
+      ],
+      [
+        0.18538397037986046,
+        0.060767096390713427,
+        0.9674699321555508
+      ]
+    ],
+    "step": 528,
+    "t_seconds": 5.28,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.49418577792707197,
+    "seam_max_m": 0.4952171908796694,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0600941603859122,
+    "local_stretch_max": 2.291731098380391,
+    "cloth_min_z_m": 0.8343587501180806,
+    "cloth_mean_z_m": 0.9312344038535623,
+    "rim_centers_m": [
+      [
+        -0.18669691357322843,
+        0.06075016785418474,
+        0.9717187061601884
+      ],
+      [
+        0.18725382471648327,
+        0.06163332238642872,
+        0.97236338459683
+      ]
+    ],
+    "step": 536,
+    "t_seconds": 5.36,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.49155240630466274,
+    "seam_max_m": 0.492523947031352,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0713552369851063,
+    "local_stretch_max": 2.3196261406300174,
+    "cloth_min_z_m": 0.8405007025728068,
+    "cloth_mean_z_m": 0.9375892994853577,
+    "rim_centers_m": [
+      [
+        -0.18805580183634163,
+        0.06207284073412342,
+        0.9780478844817775
+      ],
+      [
+        0.18780976511004926,
+        0.06317238970207305,
+        0.9787443161998858
+      ]
+    ],
+    "step": 544,
+    "t_seconds": 5.44,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.48847764953532946,
+    "seam_max_m": 0.48939986346115844,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.080183001411096,
+    "local_stretch_max": 2.3309831845982165,
+    "cloth_min_z_m": 0.8474707137593148,
+    "cloth_mean_z_m": 0.9449666886435305,
+    "rim_centers_m": [
+      [
+        -0.1882651382647114,
+        0.06405745910824691,
+        0.9855212873963158
+      ],
+      [
+        0.18839429897275958,
+        0.06492572182439646,
+        0.9862676588356933
+      ]
+    ],
+    "step": 552,
+    "t_seconds": 5.5200000000000005,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.48488600273081667,
+    "seam_max_m": 0.485761124213998,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0881721388913874,
+    "local_stretch_max": 2.315359052467749,
+    "cloth_min_z_m": 0.8553651028474825,
+    "cloth_mean_z_m": 0.9531387914220766,
+    "rim_centers_m": [
+      [
+        -0.1892108080374814,
+        0.06554820172563007,
+        0.9938970847306582
+      ],
+      [
+        0.18964389170134283,
+        0.06635137042895463,
+        0.9946006506458821
+      ]
+    ],
+    "step": 560,
+    "t_seconds": 5.6000000000000005,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.4806157055585517,
+    "seam_max_m": 0.481445008408198,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0957501003906243,
+    "local_stretch_max": 2.271285167846836,
+    "cloth_min_z_m": 0.8638023846019733,
+    "cloth_mean_z_m": 0.9617191012728257,
+    "rim_centers_m": [
+      [
+        -0.1900786530338545,
+        0.06654957645290573,
+        1.002860656995148
+      ],
+      [
+        0.19009551310897174,
+        0.06764098872387615,
+        1.0036723503818343
+      ]
+    ],
+    "step": 568,
+    "t_seconds": 5.68,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.47546492038037924,
+    "seam_max_m": 0.4762647566751444,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0979305746800407,
+    "local_stretch_max": 2.1708410999321637,
+    "cloth_min_z_m": 0.8726392426674897,
+    "cloth_mean_z_m": 0.9704971634592151,
+    "rim_centers_m": [
+      [
+        -0.18920535615511175,
+        0.06841565074075788,
+        1.012426528285931
+      ],
+      [
+        0.1894081443112852,
+        0.06934713038137677,
+        1.0132169977104994
+      ]
+    ],
+    "step": 576,
+    "t_seconds": 5.76,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.46930234132316184,
+    "seam_max_m": 0.4700665407529503,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0956285854658354,
+    "local_stretch_max": 2.019941410286383,
+    "cloth_min_z_m": 0.8813390379791941,
+    "cloth_mean_z_m": 0.9790540556912009,
+    "rim_centers_m": [
+      [
+        -0.1878704467086877,
+        0.06998024455489037,
+        1.0217143103444193
+      ],
+      [
+        0.18821126664094762,
+        0.07073865661487184,
+        1.022570445014368
+      ]
+    ],
+    "step": 584,
+    "t_seconds": 5.84,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.4620657455467212,
+    "seam_max_m": 0.46277575595559656,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0884366590950552,
+    "local_stretch_max": 1.8333981844454619,
+    "cloth_min_z_m": 0.8900150362895716,
+    "cloth_mean_z_m": 0.9871593133809138,
+    "rim_centers_m": [
+      [
+        -0.18500812088810267,
+        0.07176458629488022,
+        1.0308693650402072
+      ],
+      [
+        0.18544704713245694,
+        0.07263680438755388,
+        1.0317283328770153
+      ]
+    ],
+    "step": 592,
+    "t_seconds": 5.92,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.4537280230612714,
+    "seam_max_m": 0.4544250313843499,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0762834824340197,
+    "local_stretch_max": 1.624013999596198,
+    "cloth_min_z_m": 0.8981849220735246,
+    "cloth_mean_z_m": 0.9946048264557062,
+    "rim_centers_m": [
+      [
+        -0.18107501813296875,
+        0.07340438493794521,
+        1.0395623886919834
+      ],
+      [
+        0.18167532063172084,
+        0.07426315633582094,
+        1.040373595894563
+      ]
+    ],
+    "step": 600,
+    "t_seconds": 6.0,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.444484881635593,
+    "seam_max_m": 0.44516181769361435,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.065526452090402,
+    "local_stretch_max": 1.3873360876666796,
+    "cloth_min_z_m": 0.9054729618717865,
+    "cloth_mean_z_m": 1.0011523874425945,
+    "rim_centers_m": [
+      [
+        -0.1770974517348021,
+        0.0749798970201744,
+        1.0474203168149199
+      ],
+      [
+        0.1775382420544496,
+        0.07574331151103521,
+        1.0482403960699131
+      ]
+    ],
+    "step": 608,
+    "t_seconds": 6.08,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.43457073391888285,
+    "seam_max_m": 0.43523734416801974,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0542095096140722,
+    "local_stretch_max": 1.1986395380483847,
+    "cloth_min_z_m": 0.9088769555091858,
+    "cloth_mean_z_m": 1.0066954192185311,
+    "rim_centers_m": [
+      [
+        -0.1728116779155416,
+        0.07637559985316894,
+        1.0543203624416266
+      ],
+      [
+        0.17257903509019412,
+        0.07742964947607014,
+        1.0551361350560584
+      ]
+    ],
+    "step": 616,
+    "t_seconds": 6.16,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.42432276660334817,
+    "seam_max_m": 0.42498079626064167,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0490692579570564,
+    "local_stretch_max": 1.1369616749879417,
+    "cloth_min_z_m": 0.9093214869499207,
+    "cloth_mean_z_m": 1.0112242311820905,
+    "rim_centers_m": [
+      [
+        -0.16696348320867707,
+        0.07812838792179178,
+        1.060232468884764
+      ],
+      [
+        0.16672496218384347,
+        0.07902918236867086,
+        1.0610061342008463
+      ]
+    ],
+    "step": 624,
+    "t_seconds": 6.24,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.4141029113751364,
+    "seam_max_m": 0.41476374120532744,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.051557534144668,
+    "local_stretch_max": 1.1634404701187353,
+    "cloth_min_z_m": 0.9089024066925049,
+    "cloth_mean_z_m": 1.0147717149523183,
+    "rim_centers_m": [
+      [
+        -0.1608719241815841,
+        0.07984571636408383,
+        1.064986286643633
+      ],
+      [
+        0.16063731458582886,
+        0.08070282129074184,
+        1.0657677746417138
+      ]
+    ],
+    "step": 632,
+    "t_seconds": 6.32,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.4042996864701511,
+    "seam_max_m": 0.40496086184603086,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0573664751466212,
+    "local_stretch_max": 1.1857989148891468,
+    "cloth_min_z_m": 0.9078167080879211,
+    "cloth_mean_z_m": 1.017455795388477,
+    "rim_centers_m": [
+      [
+        -0.15491800191224583,
+        0.08136582362633372,
+        1.0687172860155458
+      ],
+      [
+        0.1548263469698806,
+        0.08232826045109294,
+        1.069513776980332
+      ]
+    ],
+    "step": 640,
+    "t_seconds": 6.4,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.395244362973177,
+    "seam_max_m": 0.39591269528327727,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.062547128926778,
+    "local_stretch_max": 1.2196536963683928,
+    "cloth_min_z_m": 0.9062908291816711,
+    "cloth_mean_z_m": 1.01925861234526,
+    "rim_centers_m": [
+      [
+        -0.14912528368844385,
+        0.0829604088670377,
+        1.0713785323857485
+      ],
+      [
+        0.14898154896802024,
+        0.08389692691484558,
+        1.0722038876517046
+      ]
+    ],
+    "step": 648,
+    "t_seconds": 6.48,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.387210728959295,
+    "seam_max_m": 0.38789529209162793,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0696740647380671,
+    "local_stretch_max": 1.2504233474629871,
+    "cloth_min_z_m": 0.9045501351356506,
+    "cloth_mean_z_m": 1.0202725085524633,
+    "rim_centers_m": [
+      [
+        -0.14345460648452008,
+        0.08483708850655158,
+        1.0729889427285035
+      ],
+      [
+        0.14361597867090048,
+        0.08521160671711486,
+        1.0738885963993896
+      ]
+    ],
+    "step": 656,
+    "t_seconds": 6.5600000000000005,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.38039634542605705,
+    "seam_max_m": 0.3811013901646113,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0749898537021383,
+    "local_stretch_max": 1.2780136047125412,
+    "cloth_min_z_m": 0.9027963280677795,
+    "cloth_mean_z_m": 1.0207517822383578,
+    "rim_centers_m": [
+      [
+        -0.13810920499556964,
+        0.08595464371575111,
+        1.0739412454576933
+      ],
+      [
+        0.13837967020073344,
+        0.08664028087533263,
+        1.0747749198440235
+      ]
+    ],
+    "step": 664,
+    "t_seconds": 6.640000000000001,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.3749275339233859,
+    "seam_max_m": 0.37563577316960595,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0783154141312459,
+    "local_stretch_max": 1.2998045355369532,
+    "cloth_min_z_m": 0.9011940360069275,
+    "cloth_mean_z_m": 1.0208632794045864,
+    "rim_centers_m": [
+      [
+        -0.13383711854504765,
+        0.08702181196308306,
+        1.0743126393771278
+      ],
+      [
+        0.13379503355948844,
+        0.087905687429432,
+        1.0751639541946816
+      ]
+    ],
+    "step": 672,
+    "t_seconds": 6.72,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.3708154842689014,
+    "seam_max_m": 0.3715270525170217,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0806121975702097,
+    "local_stretch_max": 1.3165422633848947,
+    "cloth_min_z_m": 0.8998680114746094,
+    "cloth_mean_z_m": 1.0207610482219287,
+    "rim_centers_m": [
+      [
+        -0.13053133062274902,
+        0.08795581161668417,
+        1.0743584009946634
+      ],
+      [
+        0.13039530335116647,
+        0.08879238768264638,
+        1.0751829581872747
+      ]
+    ],
+    "step": 680,
+    "t_seconds": 6.8,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.3680390422027097,
+    "seam_max_m": 0.3687556576953599,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0830190082370166,
+    "local_stretch_max": 1.3275074972918994,
+    "cloth_min_z_m": 0.8989080786705017,
+    "cloth_mean_z_m": 1.020594437043322,
+    "rim_centers_m": [
+      [
+        -0.1282992097067637,
+        0.08833958778312616,
+        1.074317408650794
+      ],
+      [
+        0.1277862047986051,
+        0.08938435642955306,
+        1.0750650720065495
+      ]
+    ],
+    "step": 688,
+    "t_seconds": 6.88,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.36657103100455174,
+    "seam_max_m": 0.367295499271206,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0845686063777282,
+    "local_stretch_max": 1.3332475267915154,
+    "cloth_min_z_m": 0.8983787298202515,
+    "cloth_mean_z_m": 1.020481228245102,
+    "rim_centers_m": [
+      [
+        -0.12733901195362032,
+        0.08860984608222644,
+        1.0742395781478555
+      ],
+      [
+        0.12699615885845467,
+        0.08945464056968751,
+        1.0750627413131082
+      ]
+    ],
+    "step": 696,
+    "t_seconds": 6.96,
+    "stage": "guided_wrist_to_shoulder_threading",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.36570395734090616,
+    "seam_max_m": 0.3664255319542624,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.085247257992421,
+    "local_stretch_max": 1.3341131064065936,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0204642003429678,
+    "rim_centers_m": [
+      [
+        -0.12715005127910903,
+        0.08879195479598752,
+        1.0742318551592893
+      ],
+      [
+        0.12724771386418768,
+        0.08938348163358023,
+        1.0750515159347496
+      ]
+    ],
+    "step": 704,
+    "t_seconds": 7.04,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.35901667395002956,
+    "seam_max_m": 0.3596815781947479,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0853466489471506,
+    "local_stretch_max": 1.3341935213817022,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0204474056066133,
+    "rim_centers_m": [
+      [
+        -0.12749927751971302,
+        0.08837448640219868,
+        1.0742669448191222
+      ],
+      [
+        0.1273045735525139,
+        0.08940386117373723,
+        1.0750631831771167
+      ]
+    ],
+    "step": 712,
+    "t_seconds": 7.12,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.3457352147745103,
+    "seam_max_m": 0.3463017596776325,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0852649469685862,
+    "local_stretch_max": 1.3341311648699452,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0204300612323256,
+    "rim_centers_m": [
+      [
+        -0.1278163318595996,
+        0.08792280289477371,
+        1.0743206669833243
+      ],
+      [
+        0.12771442163764773,
+        0.08882934088968007,
+        1.0751287447306408
+      ]
+    ],
+    "step": 720,
+    "t_seconds": 7.2,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.3268429988351316,
+    "seam_max_m": 0.32723540269052453,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0850678248749026,
+    "local_stretch_max": 1.3342093158273378,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0204888436902588,
+    "rim_centers_m": [
+      [
+        -0.127999651028765,
+        0.0879081265455855,
+        1.0744153943782015
+      ],
+      [
+        0.12792070913737535,
+        0.08859730462541902,
+        1.0751537474599242
+      ]
+    ],
+    "step": 728,
+    "t_seconds": 7.28,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.3032649727422003,
+    "seam_max_m": 0.3034943609037679,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0851957573280013,
+    "local_stretch_max": 1.3343709288415755,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.020442616198137,
+    "rim_centers_m": [
+      [
+        -0.12782480738961607,
+        0.08829185118510827,
+        1.0743245443433527
+      ],
+      [
+        0.12818693704586856,
+        0.08844673229927622,
+        1.0752000317466437
+      ]
+    ],
+    "step": 736,
+    "t_seconds": 7.36,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.27598963867404974,
+    "seam_max_m": 0.2769739780367229,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0853104918506493,
+    "local_stretch_max": 1.3340641978390713,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0205506998874847,
+    "rim_centers_m": [
+      [
+        -0.12810612699574184,
+        0.08764054694500877,
+        1.0744052589764896
+      ],
+      [
+        0.12842511667853185,
+        0.08878521371594993,
+        1.0751404180932786
+      ]
+    ],
+    "step": 744,
+    "t_seconds": 7.44,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.24591432339607333,
+    "seam_max_m": 0.2484166267514131,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0853161889264349,
+    "local_stretch_max": 1.333996842621896,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0205780736176953,
+    "rim_centers_m": [
+      [
+        -0.12737528705861204,
+        0.08799879391220802,
+        1.0743397022891046
+      ],
+      [
+        0.12801316934695353,
+        0.08922155056446728,
+        1.075083249847379
+      ]
+    ],
+    "step": 752,
+    "t_seconds": 7.5200000000000005,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.2139930254559834,
+    "seam_max_m": 0.218131746525464,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0853280488566812,
+    "local_stretch_max": 1.3341657651586019,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0207272463479076,
+    "rim_centers_m": [
+      [
+        -0.1276775553810288,
+        0.08809443729144315,
+        1.0743321904012655
+      ],
+      [
+        0.1273615231817746,
+        0.08917531727496611,
+        1.0750603275746171
+      ]
+    ],
+    "step": 760,
+    "t_seconds": 7.6000000000000005,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.18114075716703887,
+    "seam_max_m": 0.1869452812338943,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.085434796177983,
+    "local_stretch_max": 1.3343976992281945,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0208191481038371,
+    "rim_centers_m": [
+      [
+        -0.1281141621405202,
+        0.08819425126515489,
+        1.0743843124923467
+      ],
+      [
+        0.1267024587536453,
+        0.08954658398845891,
+        1.0750354469041628
+      ]
+    ],
+    "step": 768,
+    "t_seconds": 7.68,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.14824434534824646,
+    "seam_max_m": 0.15530529965400602,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.084933890560134,
+    "local_stretch_max": 1.3342642263298903,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0209713206200721,
+    "rim_centers_m": [
+      [
+        -0.12752509383243885,
+        0.08875716337909195,
+        1.0743200727345832
+      ],
+      [
+        0.12658397606920402,
+        0.0901137708365775,
+        1.0750467326799096
+      ]
+    ],
+    "step": 776,
+    "t_seconds": 7.76,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.11636688311651978,
+    "seam_max_m": 0.12483069597167362,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0855295789128871,
+    "local_stretch_max": 1.3345810174806556,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0209683829470502,
+    "rim_centers_m": [
+      [
+        -0.1264287952971757,
+        0.0894745162031986,
+        1.0742281286448188
+      ],
+      [
+        0.1265236121733759,
+        0.09027575516846582,
+        1.0750489250521993
+      ]
+    ],
+    "step": 784,
+    "t_seconds": 7.84,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.08641768738405256,
+    "seam_max_m": 0.0957928800500131,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.086730039448018,
+    "local_stretch_max": 1.3342595688182401,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0212032107670945,
+    "rim_centers_m": [
+      [
+        -0.1255861615876815,
+        0.08946757805464448,
+        1.0743103423548233
+      ],
+      [
+        0.12607261782395437,
+        0.09002939793609997,
+        1.0751034406190416
+      ]
+    ],
+    "step": 792,
+    "t_seconds": 7.92,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.059490797153170544,
+    "seam_max_m": 0.06959888051360046,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0893203785762762,
+    "local_stretch_max": 1.334762210275786,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0214239307525703,
+    "rim_centers_m": [
+      [
+        -0.1256590914638985,
+        0.08953608446090613,
+        1.0744049121326689
+      ],
+      [
+        0.12564041924615704,
+        0.09047153404722189,
+        1.0751712237973003
+      ]
+    ],
+    "step": 800,
+    "t_seconds": 8.0,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 0,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.036897776451040074,
+    "seam_max_m": 0.047265706648476895,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0946035294404488,
+    "local_stretch_max": 1.3347059529277139,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0217158121244847,
+    "rim_centers_m": [
+      [
+        -0.12514817334901265,
+        0.08988130332406688,
+        1.07442714480272
+      ],
+      [
+        0.1248679446194887,
+        0.09078395924768284,
+        1.075294239395544
+      ]
+    ],
+    "step": 808,
+    "t_seconds": 8.08,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 21,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013722786254825868,
+    "seam_max_m": 0.028901297606168913,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.1132361716490575,
+    "local_stretch_max": 1.3652214304972443,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.022103547635772,
+    "rim_centers_m": [
+      [
+        -0.12448086928793782,
+        0.0903413158494229,
+        1.0745972630346865
+      ],
+      [
+        0.12433111945141348,
+        0.09148245482870278,
+        1.0753807361621905
+      ]
+    ],
+    "step": 816,
+    "t_seconds": 8.16,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000017,
+    "seam_max_m": 0.013000000000000018,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.1281739448455368,
+    "local_stretch_max": 1.8246608459125928,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0221358912825362,
+    "rim_centers_m": [
+      [
+        -0.12400149254300592,
+        0.09086814293879403,
+        1.074576243505498
+      ],
+      [
+        0.12412278405212389,
+        0.09179357291165206,
+        1.0754166057386836
+      ]
+    ],
+    "step": 824,
+    "t_seconds": 8.24,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999979,
+    "seam_max_m": 0.01299999999999998,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.1395942352548938,
+    "local_stretch_max": 1.9272718695808995,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0222615315087686,
+    "rim_centers_m": [
+      [
+        -0.12383124926344373,
+        0.0911064890713372,
+        1.0746183004016194
+      ],
+      [
+        0.12392469700016705,
+        0.09202204232154669,
+        1.0754401048102291
+      ]
+    ],
+    "step": 832,
+    "t_seconds": 8.32,
+    "stage": "wrap_tails_around_back",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000013,
+    "seam_max_m": 0.013000000000000015,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.1398512888534191,
+    "local_stretch_max": 1.9397490309061631,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0222747642518566,
+    "rim_centers_m": [
+      [
+        -0.12382106380477689,
+        0.09113813079200904,
+        1.0746283055485042
+      ],
+      [
+        0.12390789166590757,
+        0.09204784378365369,
+        1.0754424148051869
+      ]
+    ],
+    "step": 840,
+    "t_seconds": 8.4,
+    "stage": "align_velcro",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999979,
+    "seam_max_m": 0.01299999999999998,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.1381643820167582,
+    "local_stretch_max": 1.9940751230370999,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0222811036160706,
+    "rim_centers_m": [
+      [
+        -0.12378306978333695,
+        0.09115542503038226,
+        1.0746387390527923
+      ],
+      [
+        0.12391165528343125,
+        0.09204831913848756,
+        1.075438756621139
+      ]
+    ],
+    "step": 848,
+    "t_seconds": 8.48,
+    "stage": "align_velcro",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000013,
+    "seam_max_m": 0.01300000000000002,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.1411937596436728,
+    "local_stretch_max": 2.0759132953250914,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0223108658695061,
+    "rim_centers_m": [
+      [
+        -0.12373169126457699,
+        0.09119305371198831,
+        1.074656126951711
+      ],
+      [
+        0.12389285312634056,
+        0.09206735884423525,
+        1.0754445617279589
+      ]
+    ],
+    "step": 856,
+    "t_seconds": 8.56,
+    "stage": "align_velcro",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.01300000000000001,
+    "seam_max_m": 0.01300000000000001,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.1436030042843182,
+    "local_stretch_max": 2.1336106217274464,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0223350887335645,
+    "rim_centers_m": [
+      [
+        -0.123685824100769,
+        0.09122981931271988,
+        1.0746768006974605
+      ],
+      [
+        0.12389458386214815,
+        0.09207344116331934,
+        1.0754433166534385
+      ]
+    ],
+    "step": 864,
+    "t_seconds": 8.64,
+    "stage": "align_velcro",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000012,
+    "seam_max_m": 0.013000000000000013,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.1436180412540875,
+    "local_stretch_max": 2.1335231963164305,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.0223347992884206,
+    "rim_centers_m": [
+      [
+        -0.1236862686258525,
+        0.09122995634629899,
+        1.0746771630342808
+      ],
+      [
+        0.12389440691096253,
+        0.09207333215752758,
+        1.0754431396814914
+      ]
+    ],
+    "step": 872,
+    "t_seconds": 8.72,
+    "stage": "hold_closed_seam",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000006,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.1436187266155644,
+    "local_stretch_max": 2.1335203334279114,
+    "cloth_min_z_m": 0.8982889652252197,
+    "cloth_mean_z_m": 1.022334797156489,
+    "rim_centers_m": [
+      [
+        -0.12368619672876781,
+        0.09123000442113698,
+        1.074677147539228
+      ],
+      [
+        0.12389424411773663,
+        0.09207328646710419,
+        1.0754431726532665
+      ]
+    ],
+    "step": 880,
+    "t_seconds": 8.8,
+    "stage": "hold_closed_seam",
+    "guides_active": 151
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000012,
+    "seam_max_m": 0.013000000000000022,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0161226715337555,
+    "local_stretch_max": 1.475759397916606,
+    "cloth_min_z_m": 0.9038197291745028,
+    "cloth_mean_z_m": 1.0114854281061159,
+    "rim_centers_m": [
+      [
+        -0.12075310913869383,
+        0.09406788702712818,
+        1.059586297519303
+      ],
+      [
+        0.11914080883458525,
+        0.09558438456765155,
+        1.0606830364426223
+      ]
+    ],
+    "step": 888,
+    "t_seconds": 8.88,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.01300000000000001,
+    "seam_max_m": 0.013000000000000008,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.049431496230943,
+    "local_stretch_max": 2.0438759947222853,
+    "cloth_min_z_m": 0.8552195103985414,
+    "cloth_mean_z_m": 0.9649911535365685,
+    "rim_centers_m": [
+      [
+        -0.1233228456615374,
+        0.09655149684932965,
+        1.023543795511188
+      ],
+      [
+        0.12330394505449585,
+        0.09653928957753638,
+        1.024309635803416
+      ]
+    ],
+    "step": 896,
+    "t_seconds": 8.96,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000001,
+    "seam_max_m": 0.013000000000000005,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0315273023482883,
+    "local_stretch_max": 8.39617013683125,
+    "cloth_min_z_m": 0.8342080635445596,
+    "cloth_mean_z_m": 0.9450084710088573,
+    "rim_centers_m": [
+      [
+        -0.1297923304874684,
+        0.09533238173245652,
+        1.0017895694592938
+      ],
+      [
+        0.12903920496231452,
+        0.0961450731202104,
+        1.0041594366456463
+      ]
+    ],
+    "step": 904,
+    "t_seconds": 9.040000000000001,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000003,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0152819459628264,
+    "local_stretch_max": 1.286005429239209,
+    "cloth_min_z_m": 0.7983735590718704,
+    "cloth_mean_z_m": 0.9058988898198853,
+    "rim_centers_m": [
+      [
+        -0.13986757191659052,
+        0.09962348229678598,
+        0.9511850609318094
+      ],
+      [
+        0.1395090150766909,
+        0.10108901493966647,
+        0.9539340205769778
+      ]
+    ],
+    "step": 912,
+    "t_seconds": 9.120000000000001,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000013,
+    "seam_max_m": 0.013000000000000013,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.010966521091318,
+    "local_stretch_max": 1.1777393909793765,
+    "cloth_min_z_m": 0.7528518979837775,
+    "cloth_mean_z_m": 0.8253009651203629,
+    "rim_centers_m": [
+      [
+        -0.13563067119105512,
+        0.10350812855557799,
+        0.8614026741555272
+      ],
+      [
+        0.13439279225552944,
+        0.10713325466974682,
+        0.8631520088055173
+      ]
+    ],
+    "step": 920,
+    "t_seconds": 9.200000000000001,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999973,
+    "seam_max_m": 0.012999999999999977,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0261224330613128,
+    "local_stretch_max": 1.8641213027130945,
+    "cloth_min_z_m": 0.7493856802655348,
+    "cloth_mean_z_m": 0.7798584656715393,
+    "rim_centers_m": [
+      [
+        -0.13927573560092063,
+        0.09884998495050591,
+        0.7851818743774154
+      ],
+      [
+        0.1343902632846922,
+        0.10439197539948716,
+        0.7869276185206096
+      ]
+    ],
+    "step": 928,
+    "t_seconds": 9.28,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000003,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0179817936346334,
+    "local_stretch_max": 1.8111757450457964,
+    "cloth_min_z_m": 0.7530386699831491,
+    "cloth_mean_z_m": 0.7768086010236331,
+    "rim_centers_m": [
+      [
+        -0.14717671930491122,
+        0.08129326522002718,
+        0.7832792768375597
+      ],
+      [
+        0.14376522877541129,
+        0.08505158914240923,
+        0.7840382716039984
+      ]
+    ],
+    "step": 936,
+    "t_seconds": 9.36,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000006,
+    "seam_max_m": 0.013000000000000006,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0193391059791408,
+    "local_stretch_max": 1.8408887852545865,
+    "cloth_min_z_m": 0.7527347565968259,
+    "cloth_mean_z_m": 0.7778987202578063,
+    "rim_centers_m": [
+      [
+        -0.15826730028823607,
+        0.058882868823254775,
+        0.7828451544073218
+      ],
+      [
+        0.15387589717484818,
+        0.0643956548303704,
+        0.7920796865516645
+      ]
+    ],
+    "step": 944,
+    "t_seconds": 9.44,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013,
+    "seam_max_m": 0.013000000000000001,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0180309452609726,
+    "local_stretch_max": 1.8371332107785636,
+    "cloth_min_z_m": 0.7517568452596934,
+    "cloth_mean_z_m": 0.7737463115688784,
+    "rim_centers_m": [
+      [
+        -0.1572449830700099,
+        0.05527914515553212,
+        0.7745473703569953
+      ],
+      [
+        0.14535846078216563,
+        0.06889192980766548,
+        0.7854650897253855
+      ]
+    ],
+    "step": 952,
+    "t_seconds": 9.52,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999996,
+    "seam_max_m": 0.012999999999999998,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0207479213490718,
+    "local_stretch_max": 1.6633586182064104,
+    "cloth_min_z_m": 0.7525737684947614,
+    "cloth_mean_z_m": 0.7739253265857696,
+    "rim_centers_m": [
+      [
+        -0.1592957563467097,
+        0.06323323891784435,
+        0.7785654179654459
+      ],
+      [
+        0.14624489322219825,
+        0.08096293307771964,
+        0.784181025180335
+      ]
+    ],
+    "step": 960,
+    "t_seconds": 9.6,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000006,
+    "seam_max_m": 0.013000000000000006,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.018210206298429,
+    "local_stretch_max": 1.6565939994957326,
+    "cloth_min_z_m": 0.7522485905037604,
+    "cloth_mean_z_m": 0.7741405652523041,
+    "rim_centers_m": [
+      [
+        -0.1596537919311527,
+        0.0655214502763112,
+        0.7787721338826527
+      ],
+      [
+        0.14399863040502311,
+        0.08590653256808228,
+        0.7862728026066654
+      ]
+    ],
+    "step": 968,
+    "t_seconds": 9.68,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000006,
+    "seam_max_m": 0.013000000000000008,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0175307153163213,
+    "local_stretch_max": 1.700445952278134,
+    "cloth_min_z_m": 0.7523336373217092,
+    "cloth_mean_z_m": 0.7751259621815437,
+    "rim_centers_m": [
+      [
+        -0.1595660601102851,
+        0.06487090348319813,
+        0.7783200277233214
+      ],
+      [
+        0.14552193900361124,
+        0.09245159702307303,
+        0.7870073267193507
+      ]
+    ],
+    "step": 976,
+    "t_seconds": 9.76,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.01299999999999999,
+    "seam_max_m": 0.012999999999999994,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.01648011406687,
+    "local_stretch_max": 1.6604115721207855,
+    "cloth_min_z_m": 0.7527384245606888,
+    "cloth_mean_z_m": 0.7754628584274319,
+    "rim_centers_m": [
+      [
+        -0.15870991478525368,
+        0.061552533125717596,
+        0.7792962810111385
+      ],
+      [
+        0.14598681288175652,
+        0.09714208793770936,
+        0.7859550127007271
+      ]
+    ],
+    "step": 984,
+    "t_seconds": 9.84,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000012,
+    "seam_max_m": 0.013000000000000012,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0162582383608565,
+    "local_stretch_max": 1.6704052859585636,
+    "cloth_min_z_m": 0.752535115333475,
+    "cloth_mean_z_m": 0.7752340683385733,
+    "rim_centers_m": [
+      [
+        -0.15736261799226597,
+        0.05816884401232667,
+        0.7815600556021035
+      ],
+      [
+        0.14545347167702913,
+        0.09731137537782299,
+        0.7853256986439823
+      ]
+    ],
+    "step": 992,
+    "t_seconds": 9.92,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013,
+    "seam_max_m": 0.013000000000000001,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0167240490984202,
+    "local_stretch_max": 1.6322881043519235,
+    "cloth_min_z_m": 0.752617855457112,
+    "cloth_mean_z_m": 0.7750473800385638,
+    "rim_centers_m": [
+      [
+        -0.15798630801565106,
+        0.05412029035032409,
+        0.7797416037017304
+      ],
+      [
+        0.14559319509047017,
+        0.09686639010216358,
+        0.7871943280893193
+      ]
+    ],
+    "step": 1000,
+    "t_seconds": 10.0,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000006,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0172150314487913,
+    "local_stretch_max": 1.6518784761047867,
+    "cloth_min_z_m": 0.752177410328643,
+    "cloth_mean_z_m": 0.7747788839304758,
+    "rim_centers_m": [
+      [
+        -0.15874179700478688,
+        0.05068138997802381,
+        0.7780640974626837
+      ],
+      [
+        0.1438541156388203,
+        0.09743973950178406,
+        0.7862547140399152
+      ]
+    ],
+    "step": 1008,
+    "t_seconds": 10.08,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013,
+    "seam_max_m": 0.013000000000000003,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0178539815681418,
+    "local_stretch_max": 1.6629231820348411,
+    "cloth_min_z_m": 0.7523382840342159,
+    "cloth_mean_z_m": 0.7748712558071412,
+    "rim_centers_m": [
+      [
+        -0.16085812393191376,
+        0.048689214446356925,
+        0.7780141294389438
+      ],
+      [
+        0.14214892529218245,
+        0.09850541489787885,
+        0.7869339185783907
+      ]
+    ],
+    "step": 1016,
+    "t_seconds": 10.16,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000005,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0176751865597058,
+    "local_stretch_max": 1.6808355592674968,
+    "cloth_min_z_m": 0.7521901635467464,
+    "cloth_mean_z_m": 0.7751938492798489,
+    "rim_centers_m": [
+      [
+        -0.16207883610754936,
+        0.04763029190138704,
+        0.7773854322829851
+      ],
+      [
+        0.14029093204967472,
+        0.10073213910608064,
+        0.7879912229643155
+      ]
+    ],
+    "step": 1024,
+    "t_seconds": 10.24,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000001,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0173632847826686,
+    "local_stretch_max": 1.66035291038159,
+    "cloth_min_z_m": 0.7521397551176257,
+    "cloth_mean_z_m": 0.7749538572515317,
+    "rim_centers_m": [
+      [
+        -0.16165328894961928,
+        0.04631985057857477,
+        0.7769795560439682
+      ],
+      [
+        0.1396738257916274,
+        0.10366332452875755,
+        0.787032648626149
+      ]
+    ],
+    "step": 1032,
+    "t_seconds": 10.32,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999994,
+    "seam_max_m": 0.013000000000000003,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0173460304245052,
+    "local_stretch_max": 1.6584958145112167,
+    "cloth_min_z_m": 0.7521727455175061,
+    "cloth_mean_z_m": 0.7749176311015501,
+    "rim_centers_m": [
+      [
+        -0.16024121499990976,
+        0.044024819392228014,
+        0.7778340399364815
+      ],
+      [
+        0.1401189270760663,
+        0.1050283060640856,
+        0.786653263201123
+      ]
+    ],
+    "step": 1040,
+    "t_seconds": 10.4,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999996,
+    "seam_max_m": 0.013000000000000005,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.016940707582307,
+    "local_stretch_max": 1.665963678485953,
+    "cloth_min_z_m": 0.7521988602726749,
+    "cloth_mean_z_m": 0.7750653877687856,
+    "rim_centers_m": [
+      [
+        -0.15843211919977274,
+        0.0410010611400245,
+        0.7781740054561573
+      ],
+      [
+        0.14071815141147423,
+        0.10586940562351477,
+        0.7867004876419241
+      ]
+    ],
+    "step": 1048,
+    "t_seconds": 10.48,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013,
+    "seam_max_m": 0.013000000000000001,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0171333665740836,
+    "local_stretch_max": 1.660913708324588,
+    "cloth_min_z_m": 0.7521567846753908,
+    "cloth_mean_z_m": 0.7749146853059128,
+    "rim_centers_m": [
+      [
+        -0.1577708487024365,
+        0.03804593922940312,
+        0.7777917683521204
+      ],
+      [
+        0.1407021281568662,
+        0.10758317217344235,
+        0.7858208100936697
+      ]
+    ],
+    "step": 1056,
+    "t_seconds": 10.56,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013,
+    "seam_max_m": 0.013000000000000005,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0171362266361321,
+    "local_stretch_max": 1.654944003121968,
+    "cloth_min_z_m": 0.7521018411062699,
+    "cloth_mean_z_m": 0.7747709832445787,
+    "rim_centers_m": [
+      [
+        -0.15825269518083127,
+        0.03569720105765237,
+        0.7770951471522053
+      ],
+      [
+        0.13904363077478435,
+        0.10935536850556898,
+        0.7860939932521357
+      ]
+    ],
+    "step": 1064,
+    "t_seconds": 10.64,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999996,
+    "seam_max_m": 0.013000000000000001,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0170802114472548,
+    "local_stretch_max": 1.6598068545635298,
+    "cloth_min_z_m": 0.7520207142925937,
+    "cloth_mean_z_m": 0.7748934945059877,
+    "rim_centers_m": [
+      [
+        -0.15898951666138086,
+        0.03333813802388084,
+        0.7767284778169167
+      ],
+      [
+        0.13640804850143,
+        0.11130480003365709,
+        0.7872250295371155
+      ]
+    ],
+    "step": 1072,
+    "t_seconds": 10.72,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999994,
+    "seam_max_m": 0.013000000000000003,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0169245228857255,
+    "local_stretch_max": 1.6579637098072268,
+    "cloth_min_z_m": 0.7519566867976685,
+    "cloth_mean_z_m": 0.7747978705677426,
+    "rim_centers_m": [
+      [
+        -0.15914641115443826,
+        0.031071928530893075,
+        0.7763439253053963
+      ],
+      [
+        0.13478943113909284,
+        0.11312366354647915,
+        0.7870513556107243
+      ]
+    ],
+    "step": 1080,
+    "t_seconds": 10.8,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000001,
+    "seam_max_m": 0.013000000000000003,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.017027492187205,
+    "local_stretch_max": 1.6561312136648814,
+    "cloth_min_z_m": 0.7519687374064264,
+    "cloth_mean_z_m": 0.7747786122042678,
+    "rim_centers_m": [
+      [
+        -0.15849335836537526,
+        0.029249847121418905,
+        0.7761372277537147
+      ],
+      [
+        0.1347355867214811,
+        0.1140763297662277,
+        0.786599375466327
+      ]
+    ],
+    "step": 1088,
+    "t_seconds": 10.88,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000001,
+    "seam_max_m": 0.013000000000000006,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0171444090191948,
+    "local_stretch_max": 1.6619095461622435,
+    "cloth_min_z_m": 0.7520143077660029,
+    "cloth_mean_z_m": 0.7747529806336458,
+    "rim_centers_m": [
+      [
+        -0.1571587388897051,
+        0.027793522599193595,
+        0.7761973651802102
+      ],
+      [
+        0.1354716138665912,
+        0.11449654951788929,
+        0.7866137689868348
+      ]
+    ],
+    "step": 1096,
+    "t_seconds": 10.96,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000001,
+    "seam_max_m": 0.013000000000000006,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.017234908115617,
+    "local_stretch_max": 1.6709741249359338,
+    "cloth_min_z_m": 0.7519726936226452,
+    "cloth_mean_z_m": 0.7747315050265641,
+    "rim_centers_m": [
+      [
+        -0.15594382339607396,
+        0.02669276334436972,
+        0.7764895020086829
+      ],
+      [
+        0.1358175732874626,
+        0.11472012424854373,
+        0.7861617073647543
+      ]
+    ],
+    "step": 1104,
+    "t_seconds": 11.040000000000001,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999996,
+    "seam_max_m": 0.013,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.017219268652253,
+    "local_stretch_max": 1.6707811888546975,
+    "cloth_min_z_m": 0.7520748648564463,
+    "cloth_mean_z_m": 0.774690291196408,
+    "rim_centers_m": [
+      [
+        -0.15573892243041662,
+        0.026485876005362577,
+        0.7765544957822642
+      ],
+      [
+        0.13588441837887758,
+        0.11493672118456713,
+        0.7857278177544482
+      ]
+    ],
+    "step": 1112,
+    "t_seconds": 11.120000000000001,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000006,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.017442369642903,
+    "local_stretch_max": 1.6609741142899068,
+    "cloth_min_z_m": 0.7520937963961978,
+    "cloth_mean_z_m": 0.77465853122368,
+    "rim_centers_m": [
+      [
+        -0.15583357518265106,
+        0.027707389344586286,
+        0.776098686969362
+      ],
+      [
+        0.13572610292854376,
+        0.11470364093624749,
+        0.7847118214328718
+      ]
+    ],
+    "step": 1120,
+    "t_seconds": 11.200000000000001,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999994,
+    "seam_max_m": 0.012999999999999998,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0169831419363853,
+    "local_stretch_max": 1.6689547226944919,
+    "cloth_min_z_m": 0.7521258838874241,
+    "cloth_mean_z_m": 0.7745934344993141,
+    "rim_centers_m": [
+      [
+        -0.15689181408989364,
+        0.028351670107340018,
+        0.7758908712448771
+      ],
+      [
+        0.13596934354612034,
+        0.11375612614737034,
+        0.7840625724726288
+      ]
+    ],
+    "step": 1128,
+    "t_seconds": 11.28,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999994,
+    "seam_max_m": 0.013000000000000001,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0172239496865958,
+    "local_stretch_max": 1.6737032180116962,
+    "cloth_min_z_m": 0.7520787874805396,
+    "cloth_mean_z_m": 0.7746933801874912,
+    "rim_centers_m": [
+      [
+        -0.15717352584432695,
+        0.028742689818602864,
+        0.7758025430156299
+      ],
+      [
+        0.13607144716207617,
+        0.11284251338716911,
+        0.7848186387159574
+      ]
+    ],
+    "step": 1136,
+    "t_seconds": 11.36,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999994,
+    "seam_max_m": 0.012999999999999996,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0173346148358207,
+    "local_stretch_max": 1.673916695653307,
+    "cloth_min_z_m": 0.7520787708999479,
+    "cloth_mean_z_m": 0.7746637629848239,
+    "rim_centers_m": [
+      [
+        -0.15695565531788686,
+        0.029417194272645296,
+        0.7759700955550762
+      ],
+      [
+        0.13643921137975062,
+        0.11175085031981351,
+        0.7852460869568385
+      ]
+    ],
+    "step": 1144,
+    "t_seconds": 11.44,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999994,
+    "seam_max_m": 0.012999999999999994,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0171956253773324,
+    "local_stretch_max": 1.6692363795771148,
+    "cloth_min_z_m": 0.7521157900543649,
+    "cloth_mean_z_m": 0.7746817311175206,
+    "rim_centers_m": [
+      [
+        -0.15688619225439934,
+        0.0304642431353623,
+        0.7762369403128933
+      ],
+      [
+        0.13706025109665856,
+        0.110873562611207,
+        0.7851478660984311
+      ]
+    ],
+    "step": 1152,
+    "t_seconds": 11.52,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000003,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0174565373400684,
+    "local_stretch_max": 1.6677384708373972,
+    "cloth_min_z_m": 0.7521237965964286,
+    "cloth_mean_z_m": 0.7747399983182932,
+    "rim_centers_m": [
+      [
+        -0.15709640351227255,
+        0.03181363214082012,
+        0.7765070905938188
+      ],
+      [
+        0.13742056199656616,
+        0.11025766690726768,
+        0.7848521826978392
+      ]
+    ],
+    "step": 1160,
+    "t_seconds": 11.6,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.01300000000000001,
+    "seam_max_m": 0.013000000000000012,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.01748415406741,
+    "local_stretch_max": 1.669721321358636,
+    "cloth_min_z_m": 0.7521376320502186,
+    "cloth_mean_z_m": 0.7746982187346688,
+    "rim_centers_m": [
+      [
+        -0.15771489906014516,
+        0.03295152340125761,
+        0.7762446270111323
+      ],
+      [
+        0.137700873566666,
+        0.11007227593171418,
+        0.7848446574738397
+      ]
+    ],
+    "step": 1168,
+    "t_seconds": 11.68,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013,
+    "seam_max_m": 0.012999999999999998,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0174408854656245,
+    "local_stretch_max": 1.6665739849953058,
+    "cloth_min_z_m": 0.7521461493777851,
+    "cloth_mean_z_m": 0.7746798792408823,
+    "rim_centers_m": [
+      [
+        -0.15813644602714244,
+        0.03347428835806034,
+        0.7758451637274224
+      ],
+      [
+        0.1378418378200758,
+        0.11004529416253725,
+        0.7849395446274553
+      ]
+    ],
+    "step": 1176,
+    "t_seconds": 11.76,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000006,
+    "seam_max_m": 0.013000000000000008,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.017380397534088,
+    "local_stretch_max": 1.6647286036848954,
+    "cloth_min_z_m": 0.7521473968853357,
+    "cloth_mean_z_m": 0.7747286810484224,
+    "rim_centers_m": [
+      [
+        -0.15820606818602337,
+        0.03356485962805749,
+        0.7759642375211427
+      ],
+      [
+        0.13772448810906326,
+        0.11006017079003971,
+        0.7849493252854178
+      ]
+    ],
+    "step": 1184,
+    "t_seconds": 11.84,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999996,
+    "seam_max_m": 0.013,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.017285308423846,
+    "local_stretch_max": 1.6677111272443965,
+    "cloth_min_z_m": 0.7521414958334547,
+    "cloth_mean_z_m": 0.7747224916646909,
+    "rim_centers_m": [
+      [
+        -0.1582252490636037,
+        0.03333637494815946,
+        0.7761438523130922
+      ],
+      [
+        0.1375827030825829,
+        0.11011141144391173,
+        0.7849149194936444
+      ]
+    ],
+    "step": 1192,
+    "t_seconds": 11.92,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999996,
+    "seam_max_m": 0.013000000000000001,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0173810858393728,
+    "local_stretch_max": 1.6687389721986028,
+    "cloth_min_z_m": 0.7521375769370916,
+    "cloth_mean_z_m": 0.774697332257771,
+    "rim_centers_m": [
+      [
+        -0.15807771113345132,
+        0.03294021889864434,
+        0.776000889509631
+      ],
+      [
+        0.13754502549106545,
+        0.11019244667314586,
+        0.7848879749129788
+      ]
+    ],
+    "step": 1200,
+    "t_seconds": 12.0,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000001,
+    "seam_max_m": 0.012999999999999998,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.017420241843081,
+    "local_stretch_max": 1.66912328852382,
+    "cloth_min_z_m": 0.7521320965058492,
+    "cloth_mean_z_m": 0.7746786359828236,
+    "rim_centers_m": [
+      [
+        -0.15781582690501814,
+        0.03234573875866552,
+        0.77601032631034
+      ],
+      [
+        0.1375140373586922,
+        0.11037264235778518,
+        0.7849212552939302
+      ]
+    ],
+    "step": 1208,
+    "t_seconds": 12.08,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000006,
+    "seam_max_m": 0.01300000000000001,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0173493666857794,
+    "local_stretch_max": 1.6704632224990081,
+    "cloth_min_z_m": 0.752125509651809,
+    "cloth_mean_z_m": 0.7746827217099092,
+    "rim_centers_m": [
+      [
+        -0.15749775891968573,
+        0.0316295931911775,
+        0.7761821585748149
+      ],
+      [
+        0.1373176220876837,
+        0.11074747018416392,
+        0.7848971568599372
+      ]
+    ],
+    "step": 1216,
+    "t_seconds": 12.16,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.012999999999999994,
+    "seam_max_m": 0.013000000000000001,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0171348495353472,
+    "local_stretch_max": 1.6699289349255002,
+    "cloth_min_z_m": 0.7521197505606511,
+    "cloth_mean_z_m": 0.7746939306174027,
+    "rim_centers_m": [
+      [
+        -0.15721146565147182,
+        0.03096585664941204,
+        0.7763167924050376
+      ],
+      [
+        0.13701930439256743,
+        0.11125818209599293,
+        0.7848885474817718
+      ]
+    ],
+    "step": 1224,
+    "t_seconds": 12.24,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000006,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0171078654979406,
+    "local_stretch_max": 1.6697936481868367,
+    "cloth_min_z_m": 0.7521143683810694,
+    "cloth_mean_z_m": 0.774684672149001,
+    "rim_centers_m": [
+      [
+        -0.15713421152491003,
+        0.03037220146213893,
+        0.7762551926912937
+      ],
+      [
+        0.1366937172347309,
+        0.1117484610987894,
+        0.7849153658694026
+      ]
+    ],
+    "step": 1232,
+    "t_seconds": 12.32,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000005,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.017162660145272,
+    "local_stretch_max": 1.6709868524319549,
+    "cloth_min_z_m": 0.7521031881255978,
+    "cloth_mean_z_m": 0.7746589876293041,
+    "rim_centers_m": [
+      [
+        -0.15716204838633405,
+        0.029823548241783647,
+        0.7760778072983215
+      ],
+      [
+        0.1364241870844434,
+        0.11210783253009464,
+        0.7849208368365044
+      ]
+    ],
+    "step": 1240,
+    "t_seconds": 12.4,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013,
+    "seam_max_m": 0.013,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0171721293250178,
+    "local_stretch_max": 1.6718092704466134,
+    "cloth_min_z_m": 0.7520979235680538,
+    "cloth_mean_z_m": 0.7746607763949287,
+    "rim_centers_m": [
+      [
+        -0.1570912886666288,
+        0.02940247741884707,
+        0.7760328950434981
+      ],
+      [
+        0.1362619118435514,
+        0.11232605843669297,
+        0.7849007996899096
+      ]
+    ],
+    "step": 1248,
+    "t_seconds": 12.48,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000006,
+    "seam_max_m": 0.013000000000000008,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0171428698105567,
+    "local_stretch_max": 1.6717769029539895,
+    "cloth_min_z_m": 0.7521018643864174,
+    "cloth_mean_z_m": 0.7746705268935654,
+    "rim_centers_m": [
+      [
+        -0.15692486931437702,
+        0.029185559912965443,
+        0.7761239040144137
+      ],
+      [
+        0.1362554395595131,
+        0.11242306507668794,
+        0.7849171059819235
+      ]
+    ],
+    "step": 1256,
+    "t_seconds": 12.56,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000003,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0171334626420774,
+    "local_stretch_max": 1.6719987051674055,
+    "cloth_min_z_m": 0.7521040588468859,
+    "cloth_mean_z_m": 0.7746726060330765,
+    "rim_centers_m": [
+      [
+        -0.15684337196095052,
+        0.02917362909996564,
+        0.776181529286093
+      ],
+      [
+        0.13629213499902737,
+        0.11241508740768975,
+        0.7849196286782384
+      ]
+    ],
+    "step": 1260,
+    "t_seconds": 12.6,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  }
+]

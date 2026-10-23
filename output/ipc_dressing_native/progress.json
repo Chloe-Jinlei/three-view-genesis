@@ -1,0 +1,15 @@
+{
+  "step": 1199,
+  "time_s": 12.0,
+  "mean_z_m": 1.0017814636230469,
+  "min_z_m": 0.8995150923728943,
+  "stretch_max": 1.051996111869812,
+  "stretch_p95": 1.0207340717315674,
+  "finite": true,
+  "guides_active": 0,
+  "seam_activated_pairs": 44,
+  "seam_mean_m": 0.002017578110098839,
+  "seam_max_m": 0.002026234520599246,
+  "guide_target_error_max_m": 0.014832816734258531,
+  "stage": "release_and_settle"
+}

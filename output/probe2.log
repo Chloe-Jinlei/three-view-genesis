@@ -1,0 +1,43 @@
+[38;5;226m[Genesis] [19:13:53] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [19:13:53] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [19:13:53] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [19:13:53] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+Building Genesis scene
+[38;5;226m[Genesis] [19:13:53] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/_test_tools/warnings_helper.py:11: UserWarning: cannot create weak reference to 'tuple' object. Template mapper caching disabled.
+  warnings.warn(message)
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:1174: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+0/240 reach_and_grasp elapsed=6.6s
+CHECK 0 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.76 ]
+CHECK 10 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.762]
+CHECK 20 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.762]
+25/240 lift_clear_of_table elapsed=8.8s
+CHECK 30 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.773]
+CHECK 40 bounds=[-0.4   -0.345  0.788] [ 0.4   -0.155  0.829]
+CHECK 50 bounds=[-0.4   -0.345  0.844] [ 0.4   -0.155  0.877]
+53/240 stand_in_front elapsed=11.0s
+CHECK 60 bounds=[-0.4   -0.332  0.857] [ 0.4   -0.145  0.908]
+Fatal Python error: Segmentation fault
+
+Thread 0x00007b2c895ff6c0 (most recent call first):
+  File "/home/chloe/Desktop/genesis-local/.tools/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/threading.py", line 359 in wait
+  File "/home/chloe/Desktop/genesis-local/.tools/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/threading.py", line 655 in wait
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/tqdm/_monitor.py", line 69 in run
+  File "/home/chloe/Desktop/genesis-local/.tools/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/home/chloe/Desktop/genesis-local/.tools/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007b2f02ab5740 (most recent call first):
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/kernel.py", line 848 in launch_kernel
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/kernel.py", line 1056 in __call__
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/kernel_impl.py", line 384 in _kernel_indirect
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/_quadrants_callable.py", line 166 in __call__
+  File "/home/chloe/Desktop/genesis-local/genesis-world/genesis/engine/couplers/legacy_coupler.py", line 915 in couple
+  File "/home/chloe/Desktop/genesis-local/genesis-world/genesis/engine/simulator.py", line 404 in substep
+  File "/home/chloe/Desktop/genesis-local/genesis-world/genesis/engine/simulator.py", line 366 in step
+  File "/home/chloe/Desktop/genesis-local/genesis-world/genesis/engine/scene.py", line 1079 in step
+  File "/home/chloe/Desktop/genesis-local/genesis-world/genesis/utils/misc.py", line 150 in wrapper
+  File "/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/run_sim.py", line 241 in main
+  File "/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/run_sim.py", line 297 in <module>
+
+Extension modules: numpy._core._multiarray_umath, numpy.linalg._umath_linalg, _cyutility, scipy._cyutility, scipy._lib._ccallback_c, scipy.sparse._sparsetools, charset_normalizer.md, charset_normalizer.cd, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._pcg64, numpy.random._generator, numpy.random._mt19937, numpy.random._philox, numpy.random._sfc64, numpy.random.mtrand, _csparsetools, scipy.sparse._csparsetools, scipy.spatial._ckdtree, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg._batched_linalg, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._internal_matfuncs, scipy.linalg._linalg_pythran, scipy.linalg.cython_blas, scipy.linalg.cython_lapack, scipy.linalg._decomp_update, scipy.special._ufuncs_cxx, scipy.special._ellip_harm_2, scipy.special._special_ufuncs, scipy.special._gufuncs, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.spatial._hausdorff, scipy.spatial._distance_wrap, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial.transform._rotation_cy, scipy.spatial.transform._rigid_transform_cy, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpacklib, scipy.sparse.linalg._propack, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._slsqplib, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy._lib._uarray._uarray, scipy.linalg._decomp_interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, PIL._imaging, PIL._imagingft, torch._C, torch._C._dynamo.autograd_compiler, torch._C._dynamo.eval_frame, torch._C._dynamo.guards, torch._C._dynamo.utils, torch._C._fft, torch._C._linalg, torch._C._nested, torch._C._nn, torch._C._sparse, torch._C._special, cuda.bindings._internal.utils, cuda.bindings._internal.driver, cuda.bindings.cydriver, cuda.bindings.driver, cuda.bindings._internal.runtime_ptds, cuda.bindings._internal.runtime, cuda.bindings.cyruntime, cuda.bindings.runtime, psutil._psutil_linux, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.ndimage._nd_image, scipy.ndimage._rank_filter_1d, _ni_label, scipy.ndimage._ni_label, _cffi_backend, yaml._yaml, numba.core.typeconv._typeconv, numba._helperlib, numba._dynfunc, numba._dispatcher, numba.core.runtime._nrt_python, numba.np.ufunc._internal, numba.experimental.jitclass._box, DracoPy, kiwisolver._cext, av._core, _cyutil, av._cyutil, av.logging, av.buffer, av.error, av.dictionary, av.container.pyio, av.format, av.index, av.rational, av.utils, av.stream, av.container.streams, av.opaque, av.packet, av.container.input, av.bitstream, av.container.output, av.container.core, av.codec.context, av.video.format, av.video.reformatter, av.sidedata.encparams, av.sidedata.motionvectors, av.sidedata.sidedata, av.plane, av.video.plane, av.video.frame, av.video.stream, av.codec.hwaccel, av.audio.format, av.codec.codec, av.frame, av.audio.layout, av.audio.plane, av.audio.frame, av.audio.stream, av.filter.link, av.filter.context, av.filter.graph, av.filter.filter, av.filter.loudnorm, av.audio.resampler, av.audio.codeccontext, av.audio.fifo, av.device, av.video.codeccontext, PIL._imagingmath, markupsafe._speedups, cny36llpsycor64mkecbwawvrqjgptvn6t22xsz3ogcw6z2bqipt.kernel, c5xwsozbslknyew7qadjwphowqgsrshgjheqq5ine4cpafcemjbg.kernel (total: 157)

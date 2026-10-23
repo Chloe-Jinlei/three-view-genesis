@@ -1,0 +1,17 @@
+[38;5;226m[Genesis] [19:11:42] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [19:11:42] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [19:11:43] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [19:11:43] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+Building Genesis scene
+[W 10/20/26 19:11:46.308 4] [frontend_ir.cpp:begin_frontend_struct_for_on_external_tensor@1551] qd.loop_config(serialize=True) does not have effect on the struct for. The execution order is not guaranteed.
+[W 10/20/26 19:11:46.315 4] [frontend_ir.cpp:begin_frontend_struct_for_on_external_tensor@1551] qd.loop_config(serialize=True) does not have effect on the struct for. The execution order is not guaranteed.
+[W 10/20/26 19:11:46.350 4] [frontend_ir.cpp:begin_frontend_struct_for_on_external_tensor@1551] qd.loop_config(serialize=True) does not have effect on the struct for. The execution order is not guaranteed.
+[W 10/20/26 19:11:46.353 4] [frontend_ir.cpp:begin_frontend_struct_for_on_external_tensor@1551] qd.loop_config(serialize=True) does not have effect on the struct for. The execution order is not guaranteed.
+[W 10/20/26 19:11:47.187 4] [frontend_ir.cpp:begin_frontend_struct_for_on_external_tensor@1551] qd.loop_config(serialize=True) does not have effect on the struct for. The execution order is not guaranteed.
+[W 10/20/26 19:11:47.192 4] [frontend_ir.cpp:begin_frontend_struct_for_on_external_tensor@1551] qd.loop_config(serialize=True) does not have effect on the struct for. The execution order is not guaranteed.
+[38;5;226m[Genesis] [19:11:47] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/_test_tools/warnings_helper.py:11: UserWarning: cannot create weak reference to 'tuple' object. Template mapper caching disabled.
+  warnings.warn(message)
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:1174: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+Initial scene saved /home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/initial

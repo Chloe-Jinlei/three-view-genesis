@@ -1,0 +1,102 @@
+[38;5;159m[Genesis] [19:44:40] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:44:40] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:44:40] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:44:40] [INFO] Running on [38;5;121m[Intel(R) Core(TM) Ultra 9 275HX][0m[38;5;159m with backend [38;5;121mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m30.70[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [19:44:40] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m1.4.3[0m[38;5;159m, 🎨 theme: [38;5;121mdark[0m[38;5;159m, 🌱 seed: [38;5;121m11[0m[38;5;159m, 🐛 debug: [38;5;121mFalse[0m[38;5;159m, 📏 precision: [38;5;121m32[0m[38;5;159m, 🔥 performance: [38;5;121mFalse[0m[38;5;159m, 💬 verbose: [38;5;121mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Scene [38;5;121m[3m<f3fcd97>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbox_a9ca3ab[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbear_body_c8ec926[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_body.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.KinematicEntity>[0m[38;5;159m [38;5;121m[3mbear_belly_bff0733[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_belly.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Kinematic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbear_head_0bd091b[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_head.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbear_ear_left_efdf826[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_ear_left.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.KinematicEntity>[0m[38;5;159m [38;5;121m[3mbear_inner_ear_left_3cfeaa7[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_inner_ear_left.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Kinematic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbear_foot_left_1232dc6[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_foot_left.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbear_arm_left_b27544b[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_arm_left.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbear_ear_right_400298c[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_ear_right.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.KinematicEntity>[0m[38;5;159m [38;5;121m[3mbear_inner_ear_right_ff1d8d8[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_inner_ear_right.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Kinematic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbear_foot_right_a7503e7[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_foot_right.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbear_arm_right_e899138[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_arm_right.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.KinematicEntity>[0m[38;5;159m [38;5;121m[3mbear_muzzle_84a6686[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_muzzle.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Kinematic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.KinematicEntity>[0m[38;5;159m [38;5;121m[3mbear_eye_left_3e88a66[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_eye_left.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Kinematic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.KinematicEntity>[0m[38;5;159m [38;5;121m[3mbear_eye_glint_left_b2e7fee[0m[38;5;159m. idx: [38;5;121m14[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_eye_glint_left.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Kinematic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.KinematicEntity>[0m[38;5;159m [38;5;121m[3mbear_eye_right_7579718[0m[38;5;159m. idx: [38;5;121m15[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_eye_right.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Kinematic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.KinematicEntity>[0m[38;5;159m [38;5;121m[3mbear_eye_glint_right_6ed672e[0m[38;5;159m. idx: [38;5;121m16[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_eye_glint_right.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Kinematic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.KinematicEntity>[0m[38;5;159m [38;5;121m[3mbear_nose_113cbaa[0m[38;5;159m. idx: [38;5;121m17[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_nose.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Kinematic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.KinematicEntity>[0m[38;5;159m [38;5;121m[3mbear_mouth_32df984[0m[38;5;159m. idx: [38;5;121m18[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/bear_mouth.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Kinematic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:41] [INFO] Adding [38;5;121m<gs.engine.entities.FEMEntity>[0m[38;5;159m [38;5;121m[3mfem_garment_58bad74[0m[38;5;159m. idx: [38;5;121m19[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_smoke/assets/garment.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.FEM.Cloth>[0m[38;5;159m.[0m
+IPC_BUILD_BEGIN
+[38;5;159m[Genesis] [19:44:41] [INFO] Building scene [38;5;121m[3m<f3fcd97>[0m[38;5;159m...[0m
+[W 10/20/26 19:44:41.556 144110] [frontend_ir.cpp:begin_frontend_struct_for_on_external_tensor@1551] qd.loop_config(serialize=True) does not have effect on the struct for. The execution order is not guaranteed.
+[W 10/20/26 19:44:41.560 144110] [frontend_ir.cpp:begin_frontend_struct_for_on_external_tensor@1551] qd.loop_config(serialize=True) does not have effect on the struct for. The execution order is not guaranteed.
+[38;5;159m[Genesis] [19:44:43] [INFO] Entity <58bad74> added. class: FEMEntity, morph: Mesh, size: (4790, 2560), material: <gs.materials.FEM.Cloth>.[0m
+[38;5;159m[Genesis] [19:44:44] [INFO] IPC world initialized successfully[0m
+[38;5;159m[Genesis] [19:44:44] [INFO] Compiling simulation kernels...[0m
+/home/chloe/Desktop/genesis-local/genesis-world/genesis/engine/couplers/ipc_coupler/utils.py:231: NumbaPerformanceWarning: [1m[1m'@' is faster on contiguous arrays, called on (Array(float32, 2, 'A', False, aligned=True), Array(float32, 2, 'A', False, aligned=True))[0m[0m
+  R_rel[idx] = R_current[idx] @ R_aim[idx].T
+/home/chloe/Desktop/genesis-local/genesis-world/genesis/engine/couplers/ipc_coupler/utils.py:239: NumbaPerformanceWarning: [1m[1m'@' is faster on contiguous arrays, called on (Array(float32, 2, 'A', False, aligned=True), Array(float32, 2, 'C', False, aligned=True))[0m[0m
+  I_world[idx] = R_current[idx] @ links_inertia_i[idx[-1:]] @ R_current[idx].T
+/home/chloe/Desktop/genesis-local/genesis-world/genesis/engine/couplers/ipc_coupler/utils.py:239: NumbaPerformanceWarning: [1m[1m'@' is faster on contiguous arrays, called on (Array(float32, 2, 'C', False, aligned=True), Array(float32, 2, 'A', False, aligned=True))[0m[0m
+  I_world[idx] = R_current[idx] @ links_inertia_i[idx[-1:]] @ R_current[idx].T
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/_test_tools/warnings_helper.py:11: UserWarning: cannot create weak reference to 'tuple' object. Template mapper caching disabled.
+  warnings.warn(message)
+[38;5;159m[Genesis] [19:44:57] [INFO] Building visualizer...[0m
+IPC_BUILD_OK
+IPC_STEP 0 / 3 elapsed 21.4
+[38;5;159m[Genesis] [19:45:00] [INFO] Running at [38;5;121m17.43[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:45:01] [INFO] Running at [38;5;121m17.28[0m[38;5;159m FPS.[0m
+{
+  "mode": "dressing",
+  "parameters": {
+    "mode": "dressing",
+    "steps": 800,
+    "settle_steps": 0,
+    "max_run_steps": 3,
+    "dt": 0.01,
+    "out": "output/ipc_dressing_smoke",
+    "width": 640,
+    "render_every": 5,
+    "young": 60000.0,
+    "guide_strength": 100.0,
+    "seam_strength": 1000000.0,
+    "no_video": false,
+    "no_render": true,
+    "no_robots": true
+  },
+  "native_contact": "CUDA libuipc via Genesis IPCCoupler",
+  "cloth_model": "StrainLimitingBaraffWitkinShell + DiscreteShellBending",
+  "post_step_particle_projection_used": false,
+  "elapsed_s": 21.57723617553711,
+  "guide_callback_count": 4,
+  "stitch_callback_count": 4,
+  "runtime_stitch_stiffness_effect_verified": false,
+  "last": {
+    "step": 2,
+    "time_s": 0.03,
+    "mean_z_m": 0.7532719373703003,
+    "min_z_m": 0.7519915103912354,
+    "stretch_max": 1.0106757879257202,
+    "stretch_p95": 1.004729986190796,
+    "finite": true,
+    "guides_active": 284,
+    "seam_activated_pairs": 0,
+    "seam_mean_m": 0.7922104001045227,
+    "seam_max_m": 0.7924157381057739,
+    "guide_target_error_max_m": 0.00017252575574820784,
+    "stage": "reach_and_grasp"
+  },
+  "success_certified": false,
+  "limitations": [
+    "Image-inferred geometry/materials; not original simulation recovery.",
+    "External soft guide actuation; robots are visual IK replay.",
+    "Experimental distance-triggered native soft stitch; activation alone does not certify bonding.",
+    "No full dressing success claim without release/topology validation."
+  ],
+  "release_geometric_checks": {
+    "both_arm_axes_through_apertures": false,
+    "torso_coverage_at_095m": 0.0,
+    "max_edge_stretch": 1.0106757879257202,
+    "p95_edge_stretch": 1.004729986190796,
+    "torso_inside_vertices": 0
+  }
+}
+[38;5;159m[Genesis] [19:45:01] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

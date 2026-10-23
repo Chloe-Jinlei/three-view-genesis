@@ -1,0 +1,260 @@
+{
+  "input": "/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_frame_audit/trajectory.npz",
+  "recorded_frames": 1,
+  "all_positions_finite": true,
+  "full_physical_task_success_certified": false,
+  "limitations": [
+    "Sampled-frame geometric tests cannot prove collision-free continuous motion.",
+    "An arm-axis cap crossing does not by itself prove clearance for the finite-thickness arm.",
+    "No force, grasp feasibility, material identification, or autonomous policy certification is performed.",
+    "Material topology is taken from the saved post-remesh mesh, never from proximity-selected rim particles."
+  ],
+  "seam": {
+    "candidate_pairs": 44,
+    "bonded_pairs": 0,
+    "mean_distance_m": 0.7923658490180969,
+    "max_distance_m": 0.7923805713653564,
+    "pairs_within_20mm": 0
+  },
+  "material_topology": {
+    "boundary_loops": 3,
+    "expected_boundary_loops": 3,
+    "edge_manifold": true,
+    "euler_characteristic": -1,
+    "hole_rim_particle_ids": [
+      [
+        1373,
+        1374,
+        1375,
+        1376,
+        1377,
+        1378,
+        1379,
+        1380,
+        1381,
+        1382,
+        1478,
+        1566,
+        1654,
+        1742,
+        1830,
+        1918,
+        2006,
+        2094,
+        2182,
+        2278,
+        2277,
+        2276,
+        2275,
+        2274,
+        2273,
+        2272,
+        2271,
+        2270,
+        2269,
+        2181,
+        2093,
+        2005,
+        1917,
+        1829,
+        1741,
+        1653,
+        1565,
+        1477
+      ],
+      [
+        1425,
+        1426,
+        1427,
+        1428,
+        1429,
+        1430,
+        1431,
+        1432,
+        1433,
+        1434,
+        1522,
+        1610,
+        1698,
+        1786,
+        1874,
+        1962,
+        2050,
+        2138,
+        2226,
+        2330,
+        2329,
+        2328,
+        2327,
+        2326,
+        2325,
+        2324,
+        2323,
+        2322,
+        2321,
+        2225,
+        2137,
+        2049,
+        1961,
+        1873,
+        1785,
+        1697,
+        1609,
+        1521
+      ]
+    ],
+    "initial_loop_projected_areas_m2": [
+      0.15199999511241913,
+      0.005319995805621147,
+      0.005319995805621147
+    ],
+    "topology_matches_two_aperture_sheet": true
+  },
+  "material_edge_stretch": {
+    "minimum_ratio": 0.9991096258163452,
+    "p05_ratio": 0.9999745488166809,
+    "median_ratio": 1.0000804662704468,
+    "p95_ratio": 1.0004572868347168,
+    "maximum_ratio": 1.0014424324035645,
+    "edges_over_20_percent_extension": 0
+  },
+  "torso_coverage": [
+    {
+      "height_m": 0.9,
+      "near_torso_angular_coverage_fraction": 0.0,
+      "front_coverage_fraction": 0.0,
+      "back_coverage_fraction": 0.0,
+      "largest_uncovered_angle_deg": 360.0,
+      "cloth_slice_segments": 0
+    },
+    {
+      "height_m": 0.95,
+      "near_torso_angular_coverage_fraction": 0.0,
+      "front_coverage_fraction": 0.0,
+      "back_coverage_fraction": 0.0,
+      "largest_uncovered_angle_deg": 360.0,
+      "cloth_slice_segments": 0
+    },
+    {
+      "height_m": 1.0,
+      "near_torso_angular_coverage_fraction": 0.0,
+      "front_coverage_fraction": 0.0,
+      "back_coverage_fraction": 0.0,
+      "largest_uncovered_angle_deg": 360.0,
+      "cloth_slice_segments": 0
+    },
+    {
+      "height_m": 1.04,
+      "near_torso_angular_coverage_fraction": 0.0,
+      "front_coverage_fraction": 0.0,
+      "back_coverage_fraction": 0.0,
+      "largest_uncovered_angle_deg": 360.0,
+      "cloth_slice_segments": 0
+    }
+  ],
+  "torso_vertex_penetration": {
+    "vertices_inside_98_percent_ellipsoid": 0,
+    "deepest_normalized_radius": 2.66627294032883,
+    "proxy": "analytic estimated torso ellipsoid"
+  },
+  "sleeves_final": [
+    {
+      "rim_vertices": 38,
+      "rim_projected_area_m2": 0.005320582538843155,
+      "rim_plane_rms_m": 0.0002552481309976429,
+      "rim_plane_max_m": 0.0004112194001208991,
+      "projected_rim_self_crossings": 0,
+      "arm_endpoint_plane_distances_m": [
+        0.3062113164763729,
+        0.22598933984731584
+      ],
+      "arm_endpoints_on_opposite_sides": false,
+      "cap_crossing_count": 0,
+      "arm_axis_crosses_material_count": 0,
+      "axis_threads_aperture_evidence": false,
+      "plane_crossing_segment_fraction": 3.8170502565934115,
+      "projected_winding": 7.233553181800707e-17,
+      "cap_crossing_segment_fractions": [],
+      "minimum_rim_vertex_axis_distance_m": 0.32902157716478075,
+      "rim_vertices_inside_enclosing_arm_spheroid": 0,
+      "minimum_rim_arm_spheroid_normalized_radius": 7.984117963007664,
+      "finite_arm_clearance_certified": false
+    },
+    {
+      "rim_vertices": 38,
+      "rim_projected_area_m2": 0.005320766009390354,
+      "rim_plane_rms_m": 0.00026092302869074047,
+      "rim_plane_max_m": 0.00041939978837035596,
+      "projected_rim_self_crossings": 0,
+      "arm_endpoint_plane_distances_m": [
+        -0.3062565648242679,
+        -0.22603429230452698
+      ],
+      "arm_endpoints_on_opposite_sides": false,
+      "cap_crossing_count": 0,
+      "arm_axis_crosses_material_count": 0,
+      "axis_threads_aperture_evidence": false,
+      "plane_crossing_segment_fraction": 3.817600215063778,
+      "projected_winding": 5.245706505886008e-18,
+      "cap_crossing_segment_fractions": [],
+      "minimum_rim_vertex_axis_distance_m": 0.3290217226027314,
+      "rim_vertices_inside_enclosing_arm_spheroid": 0,
+      "minimum_rim_arm_spheroid_normalized_radius": 7.984146380307431,
+      "finite_arm_clearance_certified": false
+    }
+  ],
+  "sleeves_by_frame": [
+    {
+      "frame": 0,
+      "time_s": 0.01,
+      "sleeves": [
+        {
+          "rim_vertices": 38,
+          "rim_projected_area_m2": 0.005320582538843155,
+          "rim_plane_rms_m": 0.0002552481309976429,
+          "rim_plane_max_m": 0.0004112194001208991,
+          "projected_rim_self_crossings": 0,
+          "arm_endpoint_plane_distances_m": [
+            0.3062113164763729,
+            0.22598933984731584
+          ],
+          "arm_endpoints_on_opposite_sides": false,
+          "cap_crossing_count": 0,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": false,
+          "plane_crossing_segment_fraction": 3.8170502565934115,
+          "projected_winding": 7.233553181800707e-17,
+          "cap_crossing_segment_fractions": [],
+          "minimum_rim_vertex_axis_distance_m": 0.32902157716478075,
+          "rim_vertices_inside_enclosing_arm_spheroid": 0,
+          "minimum_rim_arm_spheroid_normalized_radius": 7.984117963007664,
+          "finite_arm_clearance_certified": false
+        },
+        {
+          "rim_vertices": 38,
+          "rim_projected_area_m2": 0.005320766009390354,
+          "rim_plane_rms_m": 0.00026092302869074047,
+          "rim_plane_max_m": 0.00041939978837035596,
+          "projected_rim_self_crossings": 0,
+          "arm_endpoint_plane_distances_m": [
+            -0.3062565648242679,
+            -0.22603429230452698
+          ],
+          "arm_endpoints_on_opposite_sides": false,
+          "cap_crossing_count": 0,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": false,
+          "plane_crossing_segment_fraction": 3.817600215063778,
+          "projected_winding": 5.245706505886008e-18,
+          "cap_crossing_segment_fractions": [],
+          "minimum_rim_vertex_axis_distance_m": 0.3290217226027314,
+          "rim_vertices_inside_enclosing_arm_spheroid": 0,
+          "minimum_rim_arm_spheroid_normalized_radius": 7.984146380307431,
+          "finite_arm_clearance_certified": false
+        }
+      ]
+    }
+  ],
+  "sampled_frames_with_axis_material_crossing": [],
+  "both_arm_axes_through_intended_apertures_final": false
+}

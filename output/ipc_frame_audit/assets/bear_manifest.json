@@ -1,0 +1,480 @@
+{
+  "description": "Procedural teddy estimate based only on the supplied three initial-state images.",
+  "units": "meters",
+  "front": "-Y",
+  "table_top_z": 0.75,
+  "body_center": [
+    0.0,
+    0.1,
+    0.965
+  ],
+  "body_radii": [
+    0.135,
+    0.108,
+    0.168
+  ],
+  "estimated": true,
+  "parts": [
+    {
+      "name": "body",
+      "mesh": "bear_body.obj",
+      "pos": [
+        0.0,
+        0.1,
+        0.965
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.39,
+        0.225,
+        0.105,
+        1.0
+      ],
+      "collision": true,
+      "radii": [
+        0.135,
+        0.108,
+        0.168
+      ]
+    },
+    {
+      "name": "belly",
+      "mesh": "bear_belly.obj",
+      "pos": [
+        0.0,
+        0.1,
+        0.965
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.65,
+        0.579,
+        0.392,
+        1.0
+      ],
+      "collision": false
+    },
+    {
+      "name": "head",
+      "mesh": "bear_head.obj",
+      "pos": [
+        0.0,
+        0.082,
+        1.17
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.43,
+        0.254,
+        0.124,
+        1.0
+      ],
+      "collision": true
+    },
+    {
+      "name": "ear_left",
+      "mesh": "bear_ear_left.obj",
+      "pos": [
+        -0.078,
+        0.082,
+        1.245
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.46,
+        0.279,
+        0.141,
+        1.0
+      ],
+      "collision": true
+    },
+    {
+      "name": "inner_ear_left",
+      "mesh": "bear_inner_ear_left.obj",
+      "pos": [
+        -0.078,
+        0.054,
+        1.245
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.57,
+        0.374,
+        0.208,
+        1.0
+      ],
+      "collision": false
+    },
+    {
+      "name": "foot_left",
+      "mesh": "bear_foot_left.obj",
+      "pos": [
+        -0.06,
+        0.065,
+        0.788
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.39,
+        0.225,
+        0.105,
+        1.0
+      ],
+      "collision": true
+    },
+    {
+      "name": "arm_left",
+      "mesh": "bear_arm_left.obj",
+      "pos": [
+        -0.1325,
+        0.0825,
+        1.025
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.43,
+        0.254,
+        0.124,
+        1.0
+      ],
+      "collision": true,
+      "animated": true,
+      "shoulder_world": [
+        -0.105,
+        0.095,
+        1.065
+      ],
+      "wrist_world": [
+        -0.16,
+        0.07,
+        0.985
+      ],
+      "shoulder_local": [
+        0.02750000000000001,
+        0.012499999999999997,
+        0.040000000000000036
+      ],
+      "wrist_local": [
+        -0.027499999999999997,
+        -0.012499999999999997,
+        -0.039999999999999925
+      ]
+    },
+    {
+      "name": "ear_right",
+      "mesh": "bear_ear_right.obj",
+      "pos": [
+        0.078,
+        0.082,
+        1.245
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.46,
+        0.279,
+        0.141,
+        1.0
+      ],
+      "collision": true
+    },
+    {
+      "name": "inner_ear_right",
+      "mesh": "bear_inner_ear_right.obj",
+      "pos": [
+        0.078,
+        0.054,
+        1.245
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.57,
+        0.374,
+        0.208,
+        1.0
+      ],
+      "collision": false
+    },
+    {
+      "name": "foot_right",
+      "mesh": "bear_foot_right.obj",
+      "pos": [
+        0.06,
+        0.065,
+        0.788
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.39,
+        0.225,
+        0.105,
+        1.0
+      ],
+      "collision": true
+    },
+    {
+      "name": "arm_right",
+      "mesh": "bear_arm_right.obj",
+      "pos": [
+        0.1325,
+        0.0825,
+        1.025
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.43,
+        0.254,
+        0.124,
+        1.0
+      ],
+      "collision": true,
+      "animated": true,
+      "shoulder_world": [
+        0.105,
+        0.095,
+        1.065
+      ],
+      "wrist_world": [
+        0.16,
+        0.07,
+        0.985
+      ],
+      "shoulder_local": [
+        -0.02750000000000001,
+        0.012499999999999997,
+        0.040000000000000036
+      ],
+      "wrist_local": [
+        0.027499999999999997,
+        -0.012499999999999997,
+        -0.039999999999999925
+      ]
+    },
+    {
+      "name": "muzzle",
+      "mesh": "bear_muzzle.obj",
+      "pos": [
+        0.0,
+        -0.003,
+        1.137
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.65,
+        0.579,
+        0.392,
+        1.0
+      ],
+      "collision": false
+    },
+    {
+      "name": "eye_left",
+      "mesh": "bear_eye_left.obj",
+      "pos": [
+        -0.029,
+        -0.0005,
+        1.175
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.025,
+        0.023,
+        0.019,
+        1.0
+      ],
+      "collision": false
+    },
+    {
+      "name": "eye_glint_left",
+      "mesh": "bear_eye_glint_left.obj",
+      "pos": [
+        -0.030000000000000002,
+        -0.004,
+        1.177
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.8,
+        0.78,
+        0.7,
+        1.0
+      ],
+      "collision": false
+    },
+    {
+      "name": "eye_right",
+      "mesh": "bear_eye_right.obj",
+      "pos": [
+        0.029,
+        -0.0005,
+        1.175
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.025,
+        0.023,
+        0.019,
+        1.0
+      ],
+      "collision": false
+    },
+    {
+      "name": "eye_glint_right",
+      "mesh": "bear_eye_glint_right.obj",
+      "pos": [
+        0.028,
+        -0.004,
+        1.177
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.8,
+        0.78,
+        0.7,
+        1.0
+      ],
+      "collision": false
+    },
+    {
+      "name": "nose",
+      "mesh": "bear_nose.obj",
+      "pos": [
+        0.0,
+        -0.024,
+        1.146
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.025,
+        0.023,
+        0.019,
+        1.0
+      ],
+      "collision": false
+    },
+    {
+      "name": "mouth",
+      "mesh": "bear_mouth.obj",
+      "pos": [
+        0.0,
+        -0.0236,
+        1.137
+      ],
+      "quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "color": [
+        0.025,
+        0.023,
+        0.019,
+        1.0
+      ],
+      "collision": false
+    }
+  ]
+}

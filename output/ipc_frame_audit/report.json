@@ -1,0 +1,62 @@
+{
+  "mode": "dressing",
+  "parameters": {
+    "mode": "dressing",
+    "steps": 1000,
+    "settle_steps": 0,
+    "max_run_steps": 1,
+    "dt": 0.01,
+    "out": "output/ipc_frame_audit",
+    "width": 640,
+    "render_every": 5,
+    "young": 60000.0,
+    "guide_strength": 100.0,
+    "seam_strength": 1000000.0,
+    "no_video": false,
+    "no_render": true,
+    "no_robots": true
+  },
+  "native_contact": "CUDA libuipc via Genesis IPCCoupler",
+  "cloth_model": "StrainLimitingBaraffWitkinShell + DiscreteShellBending",
+  "post_step_particle_projection_used": false,
+  "elapsed_s": 6.273024082183838,
+  "guide_callback_count": 2,
+  "stitch_callback_count": 2,
+  "host_only_runtime_stitch_update_supported": false,
+  "seam_activation_method": "new native IPC world with exact FEM/ABD state and rest-shape preservation",
+  "seam_transition": null,
+  "run_error": null,
+  "completed_steps": 1,
+  "last_recorded_time_s": 0.01,
+  "release_reached": false,
+  "released_duration_s": 0.0,
+  "last": {
+    "step": 0,
+    "time_s": 0.01,
+    "mean_z_m": 0.7571203112602234,
+    "min_z_m": 0.7568339705467224,
+    "stretch_max": 1.0014424324035645,
+    "stretch_p95": 1.0004572868347168,
+    "finite": true,
+    "guides_active": 244,
+    "seam_activated_pairs": 0,
+    "seam_mean_m": 0.7923658490180969,
+    "seam_max_m": 0.7923805713653564,
+    "guide_target_error_max_m": 0.0,
+    "stage": "reach_and_grasp"
+  },
+  "success_certified": false,
+  "limitations": [
+    "Image-inferred geometry/materials; not original simulation recovery.",
+    "External soft guide actuation; robots are visual IK replay.",
+    "Distance-triggered native soft stitch models Velcro approximately; not hook-and-loop microstructure.",
+    "No full dressing success claim without release/topology validation."
+  ],
+  "last_recorded_geometric_checks": {
+    "both_arm_axes_through_apertures": false,
+    "torso_coverage_at_095m": 0.0,
+    "max_edge_stretch": 1.0014424324035645,
+    "p95_edge_stretch": 1.0004572868347168,
+    "torso_inside_vertices": 0
+  }
+}

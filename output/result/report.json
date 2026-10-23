@@ -1,0 +1,90 @@
+{
+  "reconstruction_type": "assisted image-only estimate",
+  "genesis_version": "1.4.3",
+  "original_simulation_data_used": false,
+  "inputs": "three supplied PNG images and task description",
+  "parameters": {
+    "steps": 960,
+    "settle_steps": 300,
+    "dt": 0.01,
+    "substeps": 4,
+    "spacing": 0.012,
+    "width": 960,
+    "backend": "cpu",
+    "viewer": false,
+    "servo": false,
+    "contact_extension": true,
+    "strain_limit": true,
+    "out": "output/result",
+    "initial_only": false,
+    "render_every": 8,
+    "no_video": false,
+    "detail_video": true,
+    "guide": "boundary"
+  },
+  "material": {
+    "areal_density_kg_m2": 0.24,
+    "stretch_compliance": 2e-08,
+    "bending_compliance": 3e-05
+  },
+  "estimated_body_radii_m": [
+    0.135,
+    0.108,
+    0.168
+  ],
+  "scripted_bear_arm_abduction_degrees": 80.0,
+  "limitations": [
+    "Dimensions and material properties estimated, not identified.",
+    "Teddy body fixed rigid; shoulders scripted, no recovered plush mechanics.",
+    "Sparse cloth boundary and sleeve rim guides are external manipulation assistance.",
+    "Robots use IK replay by default; guide forces are not all transmitted through grippers.",
+    "Legacy Genesis PBD rigid coupling lacks tangential friction and continuous cloth collision.",
+    "Velcro is a distance-triggered cloth-to-cloth seam approximation, not microscopic hooks.",
+    "Visual and centroid checks alone do not prove sleeve threading topology."
+  ],
+  "guide_particle_count": 151,
+  "total_particles": 1250,
+  "release_duration_seconds": 3.768,
+  "robot_IK_position_error_max_m": 0.004990291316062212,
+  "final": {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013000000000000005,
+    "seam_max_m": 0.013000000000000003,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0171334626420774,
+    "local_stretch_max": 1.6719987051674055,
+    "cloth_min_z_m": 0.7521040588468859,
+    "cloth_mean_z_m": 0.7746726060330765,
+    "rim_centers_m": [
+      [
+        -0.15684337196095052,
+        0.02917362909996564,
+        0.776181529286093
+      ],
+      [
+        0.13629213499902737,
+        0.11241508740768975,
+        0.7849196286782384
+      ]
+    ],
+    "step": 1260,
+    "t_seconds": 12.6,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  "elapsed_seconds": 199.63930749893188,
+  "success_certified": false,
+  "success_note": "Inspect final views and release metrics; this run does not certify autonomous physical dressing.",
+  "release_test_checks": {
+    "two_arm_axes_in_sleeves": false,
+    "seam_bonded": true,
+    "torso_coverage_at_095m": 0.0,
+    "max_edge_stretch": 1.6719987051674055,
+    "p95_edge_stretch": 1.0171334626420774,
+    "torso_inside_vertices": 0
+  },
+  "geometric_release_test_passed": false
+}

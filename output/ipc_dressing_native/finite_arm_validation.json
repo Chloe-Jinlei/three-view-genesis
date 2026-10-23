@@ -1,0 +1,1281 @@
+{
+  "input": "/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_native/trajectory.npz",
+  "time_s": 12.0,
+  "strict_validator_modified": false,
+  "method": "Exact authored arm-mesh principal-axis poles, transformed by recorded full affine matrices; original ordered material aperture caps.",
+  "arms": [
+    {
+      "side": "left",
+      "mesh": "/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_native/assets/bear_arm_left.obj",
+      "mesh_vertices": 642,
+      "mesh_triangles": 1280,
+      "authored_shoulder_to_wrist_local": [
+        [
+          0.02750000000000001,
+          0.012499999999999997,
+          0.040000000000000036
+        ],
+        [
+          -0.027499999999999997,
+          -0.012499999999999997,
+          -0.039999999999999925
+        ]
+      ],
+      "complete_mesh_axis_poles_local": [
+        [
+          0.0373753398807059,
+          0.01698879070237463,
+          0.05436412967803293
+        ],
+        [
+          -0.037375339880705946,
+          -0.016988790702374655,
+          -0.054364129678033016
+        ]
+      ],
+      "mesh_extension_past_shoulder_and_wrist_m": [
+        0.01799999447601389,
+        0.017999994476014084
+      ],
+      "recorded_affine_transform": [
+        [
+          0.1736459882753399,
+          -7.717507943221859e-07,
+          0.9848081584461879,
+          -0.14916768879006326
+        ],
+        [
+          -1.101985939648406e-06,
+          1.0000000214404368,
+          9.75133092025376e-07,
+          0.0825000033945191
+        ],
+        [
+          -0.9848081406398048,
+          -1.2508348027327335e-06,
+          0.17364596791204215,
+          1.085136253208711
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "strict_shoulder_to_wrist": {
+        "rim_vertices": 38,
+        "rim_projected_area_m2": 0.005283813923597336,
+        "rim_plane_rms_m": 0.002699859207496047,
+        "rim_plane_max_m": 0.005553641822189093,
+        "projected_rim_self_crossings": 0,
+        "arm_endpoint_plane_distances_m": [
+          0.00222700190703793,
+          -0.0965980532933471
+        ],
+        "arm_endpoints_on_opposite_sides": true,
+        "cap_crossing_count": 1,
+        "arm_axis_crosses_material_count": 0,
+        "axis_threads_aperture_evidence": true,
+        "plane_crossing_segment_fraction": 0.022534790418505667,
+        "projected_winding": 1.0,
+        "cap_crossing_segment_fractions": [
+          0.0483434559770631
+        ],
+        "minimum_rim_vertex_axis_distance_m": 0.02047492456606389
+      },
+      "complete_finite_mesh_axis": {
+        "rim_vertices": 38,
+        "rim_projected_area_m2": 0.005283813923597336,
+        "rim_plane_rms_m": 0.002699859207496047,
+        "rim_plane_max_m": 0.005553641822189093,
+        "projected_rim_self_crossings": 0,
+        "arm_endpoint_plane_distances_m": [
+          0.0199712011574751,
+          -0.11434225254378441
+        ],
+        "arm_endpoints_on_opposite_sides": true,
+        "cap_crossing_count": 1,
+        "arm_axis_crosses_material_count": 0,
+        "axis_threads_aperture_evidence": true,
+        "plane_crossing_segment_fraction": 0.14869099563097468,
+        "projected_winding": 1.0,
+        "cap_crossing_segment_fractions": [
+          0.16768047649758203
+        ],
+        "minimum_rim_vertex_axis_distance_m": 0.020425547431243175
+      },
+      "final_finite_mesh_surface": {
+        "broad_phase_candidate_pairs": 87,
+        "noncoplanar_intersecting_triangle_pairs": 0,
+        "intersection_pair_examples": [],
+        "coplanar_overlap_tested": false,
+        "cloth_vertices_strictly_inside_authored_arm": 0,
+        "inside_vertex_examples": [],
+        "authored_mesh_is_convex": true
+      },
+      "cap_crossing_point_world": [
+        -0.10927053458890167,
+        0.09379142515826779,
+        1.066946778447503
+      ],
+      "cap_crossing_fraction_on_strict_axis": 0.04834345530548618,
+      "cap_crossing_distance_from_shoulder_toward_wrist_m": 0.004846416425771978
+    },
+    {
+      "side": "right",
+      "mesh": "/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_native/assets/bear_arm_right.obj",
+      "mesh_vertices": 642,
+      "mesh_triangles": 1280,
+      "authored_shoulder_to_wrist_local": [
+        [
+          -0.02750000000000001,
+          0.012499999999999997,
+          0.040000000000000036
+        ],
+        [
+          0.027499999999999997,
+          -0.012499999999999997,
+          -0.039999999999999925
+        ]
+      ],
+      "complete_mesh_axis_poles_local": [
+        [
+          -0.03737533988070591,
+          0.016988790702374627,
+          0.05436412967803294
+        ],
+        [
+          0.03737533988070593,
+          -0.01698879070237464,
+          -0.05436412967803296
+        ]
+      ],
+      "mesh_extension_past_shoulder_and_wrist_m": [
+        0.0179999944760139,
+        0.017999994476014032
+      ],
+      "recorded_affine_transform": [
+        [
+          0.17364652206881398,
+          6.652311727895543e-07,
+          -0.9848080341482858,
+          0.14916768098082842
+        ],
+        [
+          1.669066496520083e-07,
+          0.9999999844138676,
+          7.019741570572699e-07,
+          0.08250001648674371
+        ],
+        [
+          0.9848080351211771,
+          -2.852512742221272e-07,
+          0.1736465426438904,
+          1.0851362642847513
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "strict_shoulder_to_wrist": {
+        "rim_vertices": 38,
+        "rim_projected_area_m2": 0.005024491343647242,
+        "rim_plane_rms_m": 0.0030527880880981684,
+        "rim_plane_max_m": 0.005252684932202101,
+        "projected_rim_self_crossings": 0,
+        "arm_endpoint_plane_distances_m": [
+          0.003569762817565535,
+          -0.09355098597303822
+        ],
+        "arm_endpoints_on_opposite_sides": true,
+        "cap_crossing_count": 0,
+        "arm_axis_crosses_material_count": 0,
+        "axis_threads_aperture_evidence": false,
+        "plane_crossing_segment_fraction": 0.03675592354896364,
+        "projected_winding": -1.0000000000000002,
+        "cap_crossing_segment_fractions": [],
+        "minimum_rim_vertex_axis_distance_m": 0.021704810819881685
+      },
+      "complete_finite_mesh_axis": {
+        "rim_vertices": 38,
+        "rim_projected_area_m2": 0.005024491343647242,
+        "rim_plane_rms_m": 0.0030527880880981684,
+        "rim_plane_max_m": 0.005252684932202101,
+        "projected_rim_self_crossings": 0,
+        "arm_endpoint_plane_distances_m": [
+          0.02100795105822511,
+          -0.11098917421369799
+        ],
+        "arm_endpoints_on_opposite_sides": true,
+        "cap_crossing_count": 1,
+        "arm_axis_crosses_material_count": 0,
+        "axis_threads_aperture_evidence": true,
+        "plane_crossing_segment_fraction": 0.15915461048827614,
+        "projected_winding": -1.0000000000000002,
+        "cap_crossing_segment_fractions": [
+          0.12707149501467732
+        ],
+        "minimum_rim_vertex_axis_distance_m": 0.021704811251528747
+      },
+      "final_finite_mesh_surface": {
+        "broad_phase_candidate_pairs": 146,
+        "noncoplanar_intersecting_triangle_pairs": 0,
+        "intersection_pair_examples": [],
+        "coplanar_overlap_tested": false,
+        "cloth_vertices_strictly_inside_authored_arm": 0,
+        "inside_vertex_examples": [],
+        "authored_mesh_is_convex": true
+      },
+      "cap_crossing_point_world": [
+        0.10439513908716112,
+        0.09517124873629391,
+        1.0647240996013072
+      ],
+      "cap_crossing_fraction_on_strict_axis": -0.0068483434393699265,
+      "cap_crossing_distance_from_shoulder_toward_wrist_m": -0.000686544282627596
+    }
+  ],
+  "limitations": [
+    "A complete-axis crossing and a shoulder-to-wrist crossing are different diagnostics; neither replaces the other.",
+    "Final finite-surface checks use the authored 1280-triangle arm meshes; the solver may use decimated collision meshes.",
+    "The final surface test includes noncoplanar triangle intersections and convex containment, not coplanar-overlap or positive-clearance certification.",
+    "Sampled release-frame cap tests cannot independently certify collision-free continuous motion."
+  ],
+  "strict_both_shoulder_to_wrist_axes_thread_final": false,
+  "both_complete_physical_mesh_axes_thread_final": true,
+  "final_surface_nonintersection_evidence_both_arms": true,
+  "sampled_release_frames": [
+    {
+      "frame": 184,
+      "time_s": 9.21,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 185,
+      "time_s": 9.26,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 186,
+      "time_s": 9.31,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 187,
+      "time_s": 9.36,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 188,
+      "time_s": 9.41,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 189,
+      "time_s": 9.46,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 190,
+      "time_s": 9.51,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 191,
+      "time_s": 9.56,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 192,
+      "time_s": 9.61,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 193,
+      "time_s": 9.66,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 194,
+      "time_s": 9.71,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 195,
+      "time_s": 9.76,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 196,
+      "time_s": 9.81,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 197,
+      "time_s": 9.86,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 198,
+      "time_s": 9.91,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 199,
+      "time_s": 9.96,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 200,
+      "time_s": 10.01,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 201,
+      "time_s": 10.06,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 202,
+      "time_s": 10.11,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 203,
+      "time_s": 10.16,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 204,
+      "time_s": 10.21,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 205,
+      "time_s": 10.26,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 206,
+      "time_s": 10.31,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 207,
+      "time_s": 10.36,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 208,
+      "time_s": 10.41,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 209,
+      "time_s": 10.46,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 210,
+      "time_s": 10.51,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 211,
+      "time_s": 10.56,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 212,
+      "time_s": 10.61,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 213,
+      "time_s": 10.66,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 214,
+      "time_s": 10.71,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 215,
+      "time_s": 10.76,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 216,
+      "time_s": 10.81,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 217,
+      "time_s": 10.86,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 218,
+      "time_s": 10.91,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 219,
+      "time_s": 10.96,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 220,
+      "time_s": 11.01,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 221,
+      "time_s": 11.06,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 222,
+      "time_s": 11.11,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 223,
+      "time_s": 11.16,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 224,
+      "time_s": 11.21,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 225,
+      "time_s": 11.26,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 226,
+      "time_s": 11.31,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 227,
+      "time_s": 11.36,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 228,
+      "time_s": 11.41,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 229,
+      "time_s": 11.46,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 230,
+      "time_s": 11.51,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 231,
+      "time_s": 11.56,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 232,
+      "time_s": 11.61,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 233,
+      "time_s": 11.66,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 234,
+      "time_s": 11.71,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 235,
+      "time_s": 11.76,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 236,
+      "time_s": 11.81,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 237,
+      "time_s": 11.86,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 238,
+      "time_s": 11.91,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 239,
+      "time_s": 11.96,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    },
+    {
+      "frame": 240,
+      "time_s": 12.0,
+      "arms": [
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        },
+        {
+          "cap_crossing_count": 1,
+          "arm_axis_crosses_material_count": 0,
+          "axis_threads_aperture_evidence": true,
+          "projected_rim_self_crossings": 0
+        }
+      ]
+    }
+  ],
+  "both_complete_axes_thread_all_sampled_release_frames": true,
+  "full_physical_task_success_certified": false
+}

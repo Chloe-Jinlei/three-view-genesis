@@ -1,0 +1,11 @@
+{
+  "source_trajectory": "/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_dressing_native/trajectory.npz",
+  "renderer": "Genesis CPU rasterizer",
+  "physics_recomputed": false,
+  "maximum_initial_vertex_mapping_error_m": 0.0,
+  "native_vertex_positions_used_exactly": true,
+  "robot_source": "saved qpos if present, otherwise illustrative IK",
+  "procedural_bear_assets_match_recorded_run_byte_for_byte": true,
+  "arms_use_full_recorded_affine_transform": true,
+  "frames": 241
+}

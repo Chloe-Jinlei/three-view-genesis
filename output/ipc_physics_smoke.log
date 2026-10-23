@@ -1,0 +1,62 @@
+[38;5;159m[Genesis] [19:42:18] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:42:18] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:42:18] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:42:18] [INFO] Running on [38;5;121m[Intel(R) Core(TM) Ultra 9 275HX][0m[38;5;159m with backend [38;5;121mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m30.70[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [19:42:18] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m1.4.3[0m[38;5;159m, 🎨 theme: [38;5;121mdark[0m[38;5;159m, 🌱 seed: [38;5;121m11[0m[38;5;159m, 🐛 debug: [38;5;121mFalse[0m[38;5;159m, 📏 precision: [38;5;121m32[0m[38;5;159m, 🔥 performance: [38;5;121mFalse[0m[38;5;159m, 💬 verbose: [38;5;121mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:42:21] [INFO] Scene [38;5;121m[3m<05e5304>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [19:42:21] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbox_7c4eee6[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:42:21] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3msphere_24d44a0[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Sphere>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:42:21] [INFO] Adding [38;5;121m<gs.engine.entities.FEMEntity>[0m[38;5;159m [38;5;121m[3mfem_garment_ccc17e6[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_physics_smoke/assets/garment.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.FEM.Cloth>[0m[38;5;159m.[0m
+IPC_BUILD_BEGIN
+[38;5;159m[Genesis] [19:42:21] [INFO] Building scene [38;5;121m[3m<05e5304>[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [19:42:21] [INFO] Entity <ccc17e6> added. class: FEMEntity, morph: Mesh, size: (4790, 2560), material: <gs.materials.FEM.Cloth>.[0m
+[38;5;159m[Genesis] [19:42:22] [INFO] IPC world initialized successfully[0m
+[38;5;159m[Genesis] [19:42:22] [INFO] Compiling simulation kernels...[0m
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/_test_tools/warnings_helper.py:11: UserWarning: cannot create weak reference to 'tuple' object. Template mapper caching disabled.
+  warnings.warn(message)
+[38;5;159m[Genesis] [19:42:28] [INFO] Building visualizer...[0m
+IPC_BUILD_OK
+IPC_STEP 0 / 2 elapsed 13.3
+{
+  "mode": "smoke",
+  "parameters": {
+    "mode": "smoke",
+    "steps": 2,
+    "settle_steps": 100,
+    "max_run_steps": null,
+    "dt": 0.01,
+    "out": "output/ipc_physics_smoke",
+    "width": 640,
+    "render_every": 5,
+    "young": 60000.0,
+    "guide_strength": 100.0,
+    "seam_strength": 1000000.0,
+    "no_video": false,
+    "no_render": true,
+    "no_robots": false
+  },
+  "native_contact": "CUDA libuipc via Genesis IPCCoupler",
+  "cloth_model": "StrainLimitingBaraffWitkinShell + DiscreteShellBending",
+  "post_step_particle_projection_used": false,
+  "elapsed_s": 13.300992250442505,
+  "guide_callback_count": 0,
+  "stitch_callback_count": 0,
+  "runtime_stitch_stiffness_effect_verified": false,
+  "last": {
+    "step": 1,
+    "time_s": 0.02,
+    "mean_z_m": 0.9050571322441101,
+    "min_z_m": 0.9050567746162415,
+    "stretch_max": 1.0000039339065552,
+    "stretch_p95": 1.0,
+    "finite": true
+  },
+  "success_certified": false,
+  "limitations": [
+    "Image-inferred geometry/materials; not original simulation recovery.",
+    "External soft guide actuation; robots are visual IK replay.",
+    "Experimental distance-triggered native soft stitch; activation alone does not certify bonding.",
+    "No full dressing success claim without release/topology validation."
+  ]
+}
+[38;5;159m[Genesis] [19:42:30] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

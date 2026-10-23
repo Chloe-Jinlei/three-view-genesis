@@ -1,0 +1,2 @@
+pyuipc==0.0.7
+polyscope==2.6.1

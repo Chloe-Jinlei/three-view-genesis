@@ -1,0 +1,23 @@
+{
+  "reconstruction_type": "image-inferred assisted dressing simulation, not original-parameter recovery",
+  "engine": "Genesis1.4.3 native FEM thin shell and CUDA IPC",
+  "physical_simulation_duration_s": 12.0,
+  "released_duration_s": 2.8,
+  "external_cloth_guides_final": 0,
+  "connected_velcro_vertex_pairs": 44,
+  "maximum_final_connection_gap_m": 0.002026234520599246,
+  "both_complete_arm_axes_through_intended_apertures_final": true,
+  "both_complete_arm_axes_threaded_all_recorded_release_frames": true,
+  "final_arm_surface_nonintersection_evidence": true,
+  "final_belly_angular_coverage_at_095m": 1.0,
+  "final_maximum_edge_extension_fraction": 0.05199611186981201,
+  "assisted_geometric_dressing_test_passed": true,
+  "robot_contact_force_control_verified": false,
+  "original_simulation_parameters_recovered": false,
+  "notes": [
+    "The strict authored shoulder-to-wrist segment test remains false for the right arm; complete physical mesh axis test is separate.",
+    "Robots in the video are illustrative IK replay. Cloth uses external soft guides during dressing; all are removed during the measured final interval.",
+    "Velcro is modeled by native stitching, with no peeling or failure law.",
+    "Source code archive excludes third-party dependencies and caches."
+  ]
+}

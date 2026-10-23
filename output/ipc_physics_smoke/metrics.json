@@ -1,0 +1,20 @@
+[
+  {
+    "step": 0,
+    "time_s": 0.01,
+    "mean_z_m": 0.9070190191268921,
+    "min_z_m": 0.9070189595222473,
+    "stretch_max": 1.0,
+    "stretch_p95": 1.0,
+    "finite": true
+  },
+  {
+    "step": 1,
+    "time_s": 0.02,
+    "mean_z_m": 0.9050571322441101,
+    "min_z_m": 0.9050567746162415,
+    "stretch_max": 1.0000039339065552,
+    "stretch_p95": 1.0,
+    "finite": true
+  }
+]

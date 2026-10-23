@@ -1,0 +1,162 @@
+[38;5;226m[Genesis] [19:20:34] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [19:20:34] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [19:20:34] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [19:20:34] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+Building Genesis scene
+[38;5;226m[Genesis] [19:20:34] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/_test_tools/warnings_helper.py:11: UserWarning: cannot create weak reference to 'tuple' object. Template mapper caching disabled.
+  warnings.warn(message)
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:1174: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+0/480 reach_and_grasp elapsed=6.7s
+CHECK 0 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.758]
+CHECK 10 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.758]
+CHECK 20 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.758]
+CHECK 30 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.758]
+CHECK 40 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.758]
+49/480 lift_clear_of_table elapsed=16.4s
+CHECK 50 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.758]
+CHECK 60 bounds=[-0.4   -0.345  0.756] [ 0.4   -0.155  0.772]
+CHECK 70 bounds=[-0.4   -0.345  0.773] [ 0.4   -0.155  0.798]
+CHECK 80 bounds=[-0.4   -0.345  0.804] [ 0.4   -0.155  0.829]
+CHECK 90 bounds=[-0.4   -0.345  0.832] [ 0.4   -0.155  0.858]
+CHECK 100 bounds=[-0.4   -0.345  0.851] [ 0.4   -0.155  0.877]
+106/480 stand_in_front elapsed=27.4s
+CHECK 110 bounds=[-0.4   -0.344  0.854] [ 0.4   -0.154  0.883]
+CHECK 120 bounds=[-0.4   -0.332  0.861] [ 0.4   -0.145  0.908]
+CHECK 130 bounds=[-0.4   -0.305  0.862] [ 0.4   -0.135  0.95 ]
+CHECK 140 bounds=[-0.4   -0.263  0.858] [ 0.4   -0.133  0.996]
+CHECK 150 bounds=[-0.4   -0.215  0.859] [ 0.4   -0.138  1.033]
+CHECK 160 bounds=[-0.4   -0.174  0.868] [ 0.4   -0.145  1.055]
+CHECK 170 bounds=[-0.4   -0.151  0.875] [ 0.4   -0.14   1.065]
+173/480 form_open_sleeve_approach elapsed=40.1s
+CHECK 180 bounds=[-0.397 -0.155  0.874] [ 0.397 -0.136  1.064]
+CHECK 190 bounds=[-0.383 -0.137  0.87 ] [ 0.383 -0.105  1.06 ]
+CHECK 200 bounds=[-0.362 -0.118  0.863] [ 0.362 -0.048  1.053]
+CHECK 210 bounds=[-0.336 -0.096  0.855] [0.336 0.02  1.045]
+CHECK 220 bounds=[-0.309 -0.073  0.847] [0.309 0.092 1.037]
+CHECK 230 bounds=[-0.284 -0.052  0.839] [0.284 0.158 1.029]
+CHECK 240 bounds=[-0.264 -0.035  0.833] [0.264 0.21  1.023]
+CHECK 250 bounds=[-0.253 -0.026  0.829] [0.253 0.239 1.019]
+255/480 guided_wrist_to_shoulder_threading elapsed=56.1s
+CHECK 260 bounds=[-0.251 -0.025  0.83 ] [0.251 0.243 1.02 ]
+CHECK 270 bounds=[-0.248 -0.023  0.834] [0.248 0.244 1.029]
+CHECK 280 bounds=[-0.243 -0.02   0.842] [0.243 0.246 1.043]
+CHECK 290 bounds=[-0.236 -0.016  0.851] [0.236 0.25  1.058]
+CHECK 300 bounds=[-0.229 -0.014  0.862] [0.229 0.253 1.072]
+CHECK 310 bounds=[-0.221 -0.019  0.873] [0.221 0.256 1.083]
+CHECK 320 bounds=[-0.214 -0.018  0.884] [0.214 0.26  1.09 ]
+CHECK 330 bounds=[-0.208 -0.016  0.893] [0.208 0.262 1.094]
+CHECK 340 bounds=[-0.204 -0.014  0.899] [0.204 0.264 1.095]
+CHECK 350 bounds=[-0.202 -0.014  0.901] [0.202 0.265 1.095]
+351/480 wrap_tails_around_back elapsed=74.5s
+CHECK 360 bounds=[-0.191 -0.014  0.901] [0.191 0.263 1.095]
+CHECK 370 bounds=[-0.172 -0.014  0.901] [0.172 0.258 1.095]
+CHECK 380 bounds=[-0.172 -0.014  0.901] [0.172 0.252 1.095]
+CHECK 390 bounds=[-0.171 -0.014  0.901] [0.171 0.244 1.095]
+CHECK 400 bounds=[-0.17  -0.014  0.901] [0.17  0.238 1.095]
+CHECK 410 bounds=[-0.17  -0.014  0.901] [0.17  0.233 1.095]
+418/480 align_velcro elapsed=87.5s
+CHECK 420 bounds=[-0.17  -0.014  0.901] [0.17  0.232 1.095]
+CHECK 430 bounds=[-0.17  -0.014  0.901] [0.17  0.235 1.095]
+433/480 hold_closed_seam elapsed=90.5s
+CHECK 440 bounds=[-0.17  -0.014  0.901] [0.17  0.235 1.095]
+442/480 release_and_settle elapsed=92.1s
+ALL EXTERNAL CLOTH GUIDES RELEASED
+CHECK 450 bounds=[-0.16  -0.023  0.756] [0.16  0.237 0.965]
+CHECK 460 bounds=[-0.157 -0.061  0.753] [0.157 0.265 0.858]
+CHECK 470 bounds=[-0.195 -0.082  0.751] [0.16  0.207 0.837]
+CHECK 480 bounds=[-0.183 -0.089  0.751] [0.156 0.229 0.839]
+CHECK 490 bounds=[-0.167 -0.098  0.751] [0.16  0.218 0.835]
+CHECK 500 bounds=[-0.167 -0.102  0.751] [0.153 0.221 0.842]
+CHECK 510 bounds=[-0.175 -0.096  0.751] [0.151 0.217 0.841]
+CHECK 520 bounds=[-0.183 -0.093  0.751] [0.147 0.22  0.836]
+CHECK 530 bounds=[-0.178 -0.095  0.751] [0.149 0.221 0.835]
+CHECK 540 bounds=[-0.178 -0.092  0.751] [0.15  0.229 0.837]
+CHECK 550 bounds=[-0.179 -0.087  0.752] [0.155 0.233 0.833]
+CHECK 560 bounds=[-0.184 -0.081  0.752] [0.154 0.23  0.839]
+CHECK 570 bounds=[-0.181 -0.088  0.753] [0.159 0.233 0.831]
+CHECK 580 bounds=[-0.174 -0.09   0.753] [0.161 0.226 0.833]
+CHECK 590 bounds=[-0.177 -0.095  0.752] [0.161 0.226 0.828]
+CHECK 600 bounds=[-0.187 -0.102  0.752] [0.159 0.215 0.828]
+CHECK 610 bounds=[-0.192 -0.112  0.753] [0.169 0.212 0.829]
+CHECK 620 bounds=[-0.192 -0.116  0.753] [0.163 0.213 0.831]
+CHECK 630 bounds=[-0.198 -0.118  0.752] [0.166 0.213 0.833]
+{
+  "reconstruction_type": "assisted image-only estimate",
+  "genesis_version": "1.4.3",
+  "original_simulation_data_used": false,
+  "inputs": "three supplied PNG images and task description",
+  "parameters": {
+    "steps": 480,
+    "settle_steps": 150,
+    "dt": 0.02,
+    "substeps": 8,
+    "spacing": 0.012,
+    "width": 960,
+    "backend": "cpu",
+    "viewer": false,
+    "servo": false,
+    "contact_extension": true,
+    "out": "output/contact_fit",
+    "initial_only": false,
+    "render_every": 4,
+    "no_video": false,
+    "guide": "boundary"
+  },
+  "material": {
+    "areal_density_kg_m2": 0.24,
+    "stretch_compliance": 2e-08,
+    "bending_compliance": 3e-05
+  },
+  "estimated_body_radii_m": [
+    0.135,
+    0.108,
+    0.168
+  ],
+  "limitations": [
+    "Dimensions and material properties estimated, not identified.",
+    "Teddy body fixed rigid; shoulders scripted, no recovered plush mechanics.",
+    "Sparse cloth boundary and sleeve rim guides are external manipulation assistance.",
+    "Robots use IK replay by default; guide forces are not all transmitted through grippers.",
+    "Legacy Genesis PBD rigid coupling lacks tangential friction and continuous cloth collision.",
+    "Velcro is a distance-triggered cloth-to-cloth seam approximation, not microscopic hooks.",
+    "Visual and centroid checks alone do not prove sleeve threading topology."
+  ],
+  "guide_particle_count": 200,
+  "total_particles": 1250,
+  "release_duration_seconds": 3.768,
+  "robot_IK_position_error_max_m": 0.0036781858652830124,
+  "final": {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013,
+    "seam_max_m": 0.013000000000000018,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0912411661925312,
+    "local_stretch_max": 5.676314601754005,
+    "cloth_min_z_m": 0.7522989511489868,
+    "cloth_mean_z_m": 0.7740276293491184,
+    "rim_centers_m": [
+      [
+        -0.08286960609257221,
+        0.1220087603750554,
+        0.7794521857391704
+      ],
+      [
+        0.028983133716327655,
+        0.0016248274135351596,
+        0.7742282350858053
+      ]
+    ],
+    "step": 630,
+    "t_seconds": 12.6,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  "elapsed_seconds": 129.93552422523499,
+  "success_certified": false,
+  "success_note": "Inspect final views and release metrics; this run does not certify autonomous physical dressing."
+}

@@ -1,0 +1,131 @@
+[38;5;159m[Genesis] [19:44:03] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:44:03] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:44:03] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:44:03] [INFO] Running on [38;5;121m[Intel(R) Core(TM) Ultra 9 275HX][0m[38;5;159m with backend [38;5;121mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m30.70[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [19:44:03] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m1.4.3[0m[38;5;159m, 🎨 theme: [38;5;121mdark[0m[38;5;159m, 🌱 seed: [38;5;121m11[0m[38;5;159m, 🐛 debug: [38;5;121mFalse[0m[38;5;159m, 📏 precision: [38;5;121m32[0m[38;5;159m, 🔥 performance: [38;5;121mFalse[0m[38;5;159m, 💬 verbose: [38;5;121mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:44:05] [INFO] Scene [38;5;121m[3m<bf93920>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [19:44:05] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3mbox_2fb8bdd[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:05] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m [38;5;121m[3msphere_8e961b5[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Sphere>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:44:05] [INFO] Adding [38;5;121m<gs.engine.entities.FEMEntity>[0m[38;5;159m [38;5;121m[3mfem_garment_aa001b2[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/reconstruction/output/ipc_contact_smoke/assets/garment.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.FEM.Cloth>[0m[38;5;159m.[0m
+IPC_BUILD_BEGIN
+[38;5;159m[Genesis] [19:44:05] [INFO] Building scene [38;5;121m[3m<bf93920>[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [19:44:06] [INFO] Entity <aa001b2> added. class: FEMEntity, morph: Mesh, size: (4790, 2560), material: <gs.materials.FEM.Cloth>.[0m
+[38;5;159m[Genesis] [19:44:07] [INFO] IPC world initialized successfully[0m
+[38;5;159m[Genesis] [19:44:07] [INFO] Compiling simulation kernels...[0m
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/_test_tools/warnings_helper.py:11: UserWarning: cannot create weak reference to 'tuple' object. Template mapper caching disabled.
+  warnings.warn(message)
+[38;5;159m[Genesis] [19:44:08] [INFO] Building visualizer...[0m
+IPC_BUILD_OK
+IPC_STEP 0 / 100 elapsed 6.8
+[38;5;159m[Genesis] [19:44:08] [INFO] Running at [38;5;121m50.36[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:08] [INFO] Running at [38;5;121m48.53[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:08] [INFO] Running at [38;5;121m46.59[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:09] [INFO] Running at [38;5;121m44.83[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:09] [INFO] Running at [38;5;121m43.14[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:09] [INFO] Running at [38;5;121m41.31[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:09] [INFO] Running at [38;5;121m39.44[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:09] [INFO] Running at [38;5;121m37.81[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:09] [INFO] Running at [38;5;121m36.20[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:10] [INFO] Running at [38;5;121m34.46[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:10] [INFO] Running at [38;5;121m32.89[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:11] [INFO] Running at [38;5;121m31.36[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:12] [INFO] Running at [38;5;121m29.83[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:12] [INFO] Running at [38;5;121m28.44[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:13] [INFO] Running at [38;5;121m27.15[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:13] [INFO] Running at [38;5;121m25.95[0m[38;5;159m FPS.[0m
+IPC_STEP 20 / 100 elapsed 11.8
+[38;5;159m[Genesis] [19:44:13] [INFO] Running at [38;5;121m24.85[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:14] [INFO] Running at [38;5;121m23.80[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:14] [INFO] Running at [38;5;121m22.95[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:14] [INFO] Running at [38;5;121m22.10[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:14] [INFO] Running at [38;5;121m21.23[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:14] [INFO] Running at [38;5;121m20.59[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:14] [INFO] Running at [38;5;121m19.98[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:14] [INFO] Running at [38;5;121m19.50[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:15] [INFO] Running at [38;5;121m19.14[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:15] [INFO] Running at [38;5;121m18.44[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:15] [INFO] Running at [38;5;121m17.76[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:15] [INFO] Running at [38;5;121m17.25[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:15] [INFO] Running at [38;5;121m16.83[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:15] [INFO] Running at [38;5;121m16.72[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:15] [INFO] Running at [38;5;121m16.41[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:15] [INFO] Running at [38;5;121m16.46[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m16.46[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m16.22[0m[38;5;159m FPS.[0m
+IPC_STEP 40 / 100 elapsed 14.5
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m16.61[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m16.99[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m17.31[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m17.59[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m17.86[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m18.14[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m17.90[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m18.20[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:16] [INFO] Running at [38;5;121m18.43[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m18.65[0m[38;5;159m FPS.[0m
+IPC_STEP 60 / 100 elapsed 15.4
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m18.88[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m19.14[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m19.34[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m19.52[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m19.70[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m19.66[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m19.49[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m19.35[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m19.56[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m19.77[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:17] [INFO] Running at [38;5;121m19.99[0m[38;5;159m FPS.[0m
+IPC_STEP 80 / 100 elapsed 16.3
+[38;5;159m[Genesis] [19:44:18] [INFO] Running at [38;5;121m20.14[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:18] [INFO] Running at [38;5;121m20.33[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:18] [INFO] Running at [38;5;121m20.49[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:18] [INFO] Running at [38;5;121m20.61[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:18] [INFO] Running at [38;5;121m20.79[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:18] [INFO] Running at [38;5;121m20.71[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:18] [INFO] Running at [38;5;121m20.87[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:18] [INFO] Running at [38;5;121m20.99[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:18] [INFO] Running at [38;5;121m21.13[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [19:44:18] [INFO] Running at [38;5;121m21.24[0m[38;5;159m FPS.[0m
+{
+  "mode": "smoke",
+  "parameters": {
+    "mode": "smoke",
+    "steps": 100,
+    "settle_steps": 100,
+    "max_run_steps": null,
+    "dt": 0.01,
+    "out": "output/ipc_contact_smoke",
+    "width": 640,
+    "render_every": 5,
+    "young": 60000.0,
+    "guide_strength": 100.0,
+    "seam_strength": 1000000.0,
+    "no_video": false,
+    "no_render": true,
+    "no_robots": false
+  },
+  "native_contact": "CUDA libuipc via Genesis IPCCoupler",
+  "cloth_model": "StrainLimitingBaraffWitkinShell + DiscreteShellBending",
+  "post_step_particle_projection_used": false,
+  "elapsed_s": 17.11411166191101,
+  "guide_callback_count": 0,
+  "stitch_callback_count": 0,
+  "runtime_stitch_stiffness_effect_verified": false,
+  "last": {
+    "step": 99,
+    "time_s": 1.0,
+    "mean_z_m": 0.7700245976448059,
+    "min_z_m": 0.7518919706344604,
+    "stretch_max": 1.023469090461731,
+    "stretch_p95": 1.0065513849258423,
+    "finite": true
+  },
+  "success_certified": false,
+  "limitations": [
+    "Image-inferred geometry/materials; not original simulation recovery.",
+    "External soft guide actuation; robots are visual IK replay.",
+    "Experimental distance-triggered native soft stitch; activation alone does not certify bonding.",
+    "No full dressing success claim without release/topology validation."
+  ]
+}
+[38;5;159m[Genesis] [19:44:18] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

@@ -1,0 +1,42 @@
+{
+  "mode": "smoke",
+  "parameters": {
+    "mode": "smoke",
+    "steps": 2,
+    "settle_steps": 100,
+    "max_run_steps": null,
+    "dt": 0.01,
+    "out": "output/ipc_physics_smoke",
+    "width": 640,
+    "render_every": 5,
+    "young": 60000.0,
+    "guide_strength": 100.0,
+    "seam_strength": 1000000.0,
+    "no_video": false,
+    "no_render": true,
+    "no_robots": false
+  },
+  "native_contact": "CUDA libuipc via Genesis IPCCoupler",
+  "cloth_model": "StrainLimitingBaraffWitkinShell + DiscreteShellBending",
+  "post_step_particle_projection_used": false,
+  "elapsed_s": 13.300992250442505,
+  "guide_callback_count": 0,
+  "stitch_callback_count": 0,
+  "runtime_stitch_stiffness_effect_verified": false,
+  "last": {
+    "step": 1,
+    "time_s": 0.02,
+    "mean_z_m": 0.9050571322441101,
+    "min_z_m": 0.9050567746162415,
+    "stretch_max": 1.0000039339065552,
+    "stretch_p95": 1.0,
+    "finite": true
+  },
+  "success_certified": false,
+  "limitations": [
+    "Image-inferred geometry/materials; not original simulation recovery.",
+    "External soft guide actuation; robots are visual IK replay.",
+    "Experimental distance-triggered native soft stitch; activation alone does not certify bonding.",
+    "No full dressing success claim without release/topology validation."
+  ]
+}

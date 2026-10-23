@@ -1,0 +1,79 @@
+{
+  "reconstruction_type": "assisted image-only estimate",
+  "genesis_version": "1.4.3",
+  "original_simulation_data_used": false,
+  "inputs": "three supplied PNG images and task description",
+  "parameters": {
+    "steps": 480,
+    "settle_steps": 200,
+    "dt": 0.02,
+    "substeps": 8,
+    "spacing": 0.012,
+    "width": 960,
+    "backend": "cpu",
+    "viewer": false,
+    "servo": false,
+    "contact_extension": true,
+    "out": "output/articulated",
+    "initial_only": false,
+    "render_every": 4,
+    "no_video": false,
+    "detail_video": true,
+    "guide": "boundary"
+  },
+  "material": {
+    "areal_density_kg_m2": 0.24,
+    "stretch_compliance": 2e-08,
+    "bending_compliance": 3e-05
+  },
+  "estimated_body_radii_m": [
+    0.135,
+    0.108,
+    0.168
+  ],
+  "limitations": [
+    "Dimensions and material properties estimated, not identified.",
+    "Teddy body fixed rigid; shoulders scripted, no recovered plush mechanics.",
+    "Sparse cloth boundary and sleeve rim guides are external manipulation assistance.",
+    "Robots use IK replay by default; guide forces are not all transmitted through grippers.",
+    "Legacy Genesis PBD rigid coupling lacks tangential friction and continuous cloth collision.",
+    "Velcro is a distance-triggered cloth-to-cloth seam approximation, not microscopic hooks.",
+    "Visual and centroid checks alone do not prove sleeve threading topology."
+  ],
+  "guide_particle_count": 151,
+  "total_particles": 1250,
+  "release_duration_seconds": 4.768,
+  "robot_IK_position_error_max_m": 0.0036781858652830124,
+  "final": {
+    "finite": true,
+    "particles": 1250,
+    "bonded_pairs": 22,
+    "candidate_pairs": 22,
+    "seam_mean_m": 0.013,
+    "seam_max_m": 0.01300000000000003,
+    "body_inside_particles": 0,
+    "local_stretch_p95": 1.0818743677514429,
+    "local_stretch_max": 5.270478225875719,
+    "cloth_min_z_m": 0.7530296444892883,
+    "cloth_mean_z_m": 0.7728353831814891,
+    "rim_centers_m": [
+      [
+        -0.06434164649214257,
+        0.13164940594949506,
+        0.7777471014044501
+      ],
+      [
+        0.08827019644280275,
+        -0.06750086769461631,
+        0.7610155648655361
+      ]
+    ],
+    "step": 680,
+    "t_seconds": 13.6,
+    "stage": "release_and_settle",
+    "guides_active": 0
+  },
+  "elapsed_seconds": 157.89760875701904,
+  "success_certified": false,
+  "success_note": "Inspect final views and release metrics; this run does not certify autonomous physical dressing."
+}

@@ -1,0 +1,7 @@
+.cache/
+.deps/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.zip
